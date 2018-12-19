@@ -1,0 +1,30 @@
+TIENDA                   GENERALEÑO
+CAJA                       ADMINISTRADOR
+Número Cierre        0
+FECHA EMISIÓN     7/10/2018 12:00:00 AM
+FECHA CIERRE        8/27/2018 2:30:28 PM
+FACTURA INICIAL F   1
+FECHA FINAL F          392
+FACTURA INICIAL P   1
+FECHA FINAL P          16
+
+VENTAS                   MONTO
+----------------------------------
+VENTAS CONTADO  1,079,093.00
+ENTRADA CAJA         0
+SALIDA CAJA             0
+TOTAL CAJA              100000
+FONDO CAJA            0
+POR ENTREGAR        1,079,093.00
+
+NOTAS
+
+________________________________________
+
+________________________________________
+
+FIRMA CAJERO           FIRMA ADMIN
+
+________________       _________________
+
+Impreso el 8/26/2018 3:03:48 PM

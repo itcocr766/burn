@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A7E4215-37A4-40D1-8288-1DF90B7FD14F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>POS</RootNamespace>
+    <AssemblyName>POS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Richard\Desktop\publicaciones\nunu\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>17</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ion-crypto-cryptocurrency-cryptocurrencies-cash-money-bank-payment_95452.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1DA86979CD38AA89810450B97EFFAFAE4CA1C6F7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AnalysisServices.AppLocal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.AnalysisServices.AppLocal.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.AnalysisServices.AppLocal.Tabular, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.12\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anular\AnulaFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anular\AnulaFactura.Designer.cs">
+      <DependentUpon>AnulaFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anular\contr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anular\contr.Designer.cs">
+      <DependentUpon>contr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cajerosprincipal\cajeross.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cajerosprincipal\cajeross.Designer.cs">
+      <DependentUpon>cajeross.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cedulas\buscarcedula.cs" />
+    <Compile Include="Cierres\Cierre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cierres\Cierre.Designer.cs">
+      <DependentUpon>Cierre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cierres\conficon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cierres\conficon.Designer.cs">
+      <DependentUpon>conficon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cierres\configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cierres\configuracion.Designer.cs">
+      <DependentUpon>configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cierres\Menucierres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cierres\Menucierres.Designer.cs">
+      <DependentUpon>Menucierres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cierres\menureportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cierres\menureportes.Designer.cs">
+      <DependentUpon>menureportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cierres\metodos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cierres\metodos.Designer.cs">
+      <DependentUpon>metodos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clientesprincipal\clienform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientesprincipal\clienform.Designer.cs">
+      <DependentUpon>clienform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clientesprincipal\climod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientesprincipal\climod.Designer.cs">
+      <DependentUpon>climod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clientesprincipal\Errores.cs" />
+    <Compile Include="clientesprincipal\preciosespeciales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientesprincipal\preciosespeciales.Designer.cs">
+      <DependentUpon>preciosespeciales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\configuracion.Designer.cs">
+      <DependentUpon>configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\Contrasenaconfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\Contrasenaconfig.Designer.cs">
+      <DependentUpon>Contrasenaconfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contrasena\contrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrasena\contrasena.Designer.cs">
+      <DependentUpon>contrasena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlFactura.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HACIENDA\CODE.cs" />
+    <Compile Include="HACIENDA\Codificacion.cs" />
+    <Compile Include="HACIENDA\DETAIL.cs" />
+    <Compile Include="HACIENDA\ENVIO.cs" />
+    <Compile Include="HACIENDA\EXONERATION.cs" />
+    <Compile Include="HACIENDA\FE.cs" />
+    <Compile Include="HACIENDA\HEADER.cs" />
+    <Compile Include="HACIENDA\IDENTIFICATION.cs" />
+    <Compile Include="HACIENDA\KEY.cs" />
+    <Compile Include="HACIENDA\OTHER.cs" />
+    <Compile Include="HACIENDA\RECEIVER.cs" />
+    <Compile Include="HACIENDA\REFERENCE.cs" />
+    <Compile Include="HACIENDA\Respuesta.cs" />
+    <Compile Include="HACIENDA\SUMMARY.cs" />
+    <Compile Include="HACIENDA\TAX.cs" />
+    <Compile Include="historialfacturas\facturasantteriores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historialfacturas\facturasantteriores.Designer.cs">
+      <DependentUpon>facturasantteriores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio2\inicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio2\inicio2.Designer.cs">
+      <DependentUpon>inicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio2\inicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio2\inicio3.Designer.cs">
+      <DependentUpon>inicio3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\Mysql22.cs" />
+    <Compile Include="Pedido\pedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedido\pedidos.Designer.cs">
+      <DependentUpon>pedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productosprincipal\creaitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productosprincipal\creaitem.Designer.cs">
+      <DependentUpon>creaitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productosprincipal\promod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productosprincipal\promod.Designer.cs">
+      <DependentUpon>promod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\clis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\clis.Designer.cs">
+      <DependentUpon>clis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\especiales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\especiales.Designer.cs">
+      <DependentUpon>especiales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\existencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\existencias.Designer.cs">
+      <DependentUpon>existencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\facturasF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\facturasF.Designer.cs">
+      <DependentUpon>facturasF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\facturasp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\facturasp.Designer.cs">
+      <DependentUpon>facturasp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\pedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\pedidos.Designer.cs">
+      <DependentUpon>pedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vendedoresprincipal_\creavendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendedoresprincipal_\creavendedor.Designer.cs">
+      <DependentUpon>creavendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vendedoresprincipal_\vendmod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendedoresprincipal_\vendmod.Designer.cs">
+      <DependentUpon>vendmod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\administracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\administracion.Designer.cs">
+      <DependentUpon>administracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\conexionabasedatos.cs" />
+    <Compile Include="Modelo\Mensaje.cs" />
+    <Compile Include="Modelo\Mysql.cs" />
+    <Compile Include="clientesprincipal\clies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientesprincipal\clies.Designer.cs">
+      <DependentUpon>clies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\ConvertirANumeros.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vista\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productosprincipal\productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productosprincipal\productos.Designer.cs">
+      <DependentUpon>productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Progress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Progress.Designer.cs">
+      <DependentUpon>Progress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vendedoresprincipal_\vendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendedoresprincipal_\vendedores.Designer.cs">
+      <DependentUpon>vendedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vuelto\vueltoenpantalla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vuelto\vueltoenpantalla.Designer.cs">
+      <DependentUpon>vueltoenpantalla.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anular\AnulaFactura.resx">
+      <DependentUpon>AnulaFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anular\contr.resx">
+      <DependentUpon>contr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cajerosprincipal\cajeross.resx">
+      <DependentUpon>cajeross.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cierres\Cierre.resx">
+      <DependentUpon>Cierre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cierres\conficon.resx">
+      <DependentUpon>conficon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cierres\configuracion.resx">
+      <DependentUpon>configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cierres\Menucierres.resx">
+      <DependentUpon>Menucierres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cierres\menureportes.resx">
+      <DependentUpon>menureportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cierres\metodos.resx">
+      <DependentUpon>metodos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientesprincipal\clienform.resx">
+      <DependentUpon>clienform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientesprincipal\climod.resx">
+      <DependentUpon>climod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientesprincipal\preciosespeciales.resx">
+      <DependentUpon>preciosespeciales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\configuracion.resx">
+      <DependentUpon>configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\Contrasenaconfig.resx">
+      <DependentUpon>Contrasenaconfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrasena\contrasena.resx">
+      <DependentUpon>contrasena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historialfacturas\facturasantteriores.resx">
+      <DependentUpon>facturasantteriores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio2\inicio2.resx">
+      <DependentUpon>inicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio2\inicio3.resx">
+      <DependentUpon>inicio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedido\pedidos.resx">
+      <DependentUpon>pedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productosprincipal\creaitem.resx">
+      <DependentUpon>creaitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productosprincipal\promod.resx">
+      <DependentUpon>promod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\clis.resx">
+      <DependentUpon>clis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\especiales.resx">
+      <DependentUpon>especiales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\existencias.resx">
+      <DependentUpon>existencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\facturasF.resx">
+      <DependentUpon>facturasF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\facturasp.resx">
+      <DependentUpon>facturasp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\pedidos.resx">
+      <DependentUpon>pedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Report1.rdlc" />
+    <EmbeddedResource Include="Reportes\Report2.rdlc" />
+    <EmbeddedResource Include="Reportes\Report3.rdlc" />
+    <EmbeddedResource Include="Reportes\Report4.rdlc" />
+    <EmbeddedResource Include="Reportes\Report5.rdlc" />
+    <EmbeddedResource Include="Reportes\Report6.rdlc" />
+    <EmbeddedResource Include="vendedoresprincipal_\creavendedor.resx">
+      <DependentUpon>creavendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendedoresprincipal_\vendmod.resx">
+      <DependentUpon>vendmod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\administracion.resx">
+      <DependentUpon>administracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientesprincipal\clies.resx">
+      <DependentUpon>clies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Vista\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productosprincipal\productos.resx">
+      <DependentUpon>productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Progress.resx">
+      <DependentUpon>Progress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendedoresprincipal_\vendedores.resx">
+      <DependentUpon>vendedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vuelto\vueltoenpantalla.resx">
+      <DependentUpon>vueltoenpantalla.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="POS_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Itco vector-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wiping-swipe-for-floors %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo itco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Itco vector-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Itco vector-031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Itco vector-051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-signing %281%29.png" />
+    <None Include="Resources\piggy-bank.png" />
+    <None Include="Resources\check-signing.png" />
+    <None Include="Resources\piggy-bank %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rolling-machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Itco vector-052.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piggy-bank %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feature_graphics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="976602-appliances-computer-display-pc-screen-tv_106537.ico" />
+    <Content Include="aion-crypto-cryptocurrency-cryptocurrencies-cash-money-bank-payment_95121.ico" />
+    <Content Include="ion-crypto-cryptocurrency-cryptocurrencies-cash-money-bank-payment_95452.ico" />
+    <Content Include="money-pig_icon-icons.com_56372 %282%29.ico" />
+    <None Include="Resources\shopping-bag.png" />
+    <None Include="Resources\tag %281%291.png" />
+    <None Include="Resources\loupe.png" />
+    <None Include="Resources\annulled-emoticon-square-face.png" />
+    <None Include="Resources\user %281%292.png" />
+    <None Include="Resources\user %281%291.png" />
+    <None Include="Resources\change.png" />
+    <None Include="Resources\check-signing %281%291.png" />
+    <None Include="Resources\icon1.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\feature_graphics2.png" />
+    <None Include="Resources\down-arrow.png" />
+    <None Include="Resources\treasure.png" />
+    <None Include="Resources\shopping-cart1.png" />
+    <None Include="Resources\support1.png" />
+    <None Include="Resources\seller1.png" />
+    <None Include="Resources\seller.png" />
+    <None Include="Resources\support.png" />
+    <None Include="Resources\chest.png" />
+    <None Include="Resources\seller %281%29.png" />
+    <None Include="Resources\tag %281%29.png" />
+    <None Include="Resources\real-estate-sales-agent.png" />
+    <None Include="Resources\shopping-cart-with-product-inside.png" />
+    <None Include="Resources\user %281%29.png" />
+    <None Include="Resources\Logo Itco vector-032.png" />
+    <None Include="Resources\feature_graphics1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="panelhacienda\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

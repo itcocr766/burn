@@ -1,0 +1,36 @@
+Razón social:Carnicería  La Nueva Unión
+Ced.Jurídica:3101125675
+Correo:lanuevaunion@hotmail.com
+Lugar:San José
+Teléfono:2224-7042
+    Fecha:     8/29/2018 1:02:04 PM
+                      No.Factura:
+             00100001010000000576
+                        Clave:
+5062908180031026714690010
+0001010000000576199635259
+                Voucher: 397
+        Tipo de pago : Tarjeta
+          Facturado por: admin
+              Cliente:
+ JEIMY VIVIANA HERNANDEZ MARTINEZ
+
+Cantidad        Artículo        Precio        Imp.
+----------------------------------------------------------
+      0.1          Bistec         ₡528        (G)
+         (E)=Exento              (G)=Gravado
+ARTICULOS=                      1
+SUBTOTAL=                      ₡467.26
+I.V.A.=                               ₡60.74
+DESCUENTO=                   ₡0.000
+TOTAL=                             ₡528.00
+------------------------------MONTO-------------
+PAGA CON:                        ₡528
+VUELTO=                           ₡0.000
+           ARTICULOS CON I.V.I.
+           VENDEDOR : RAMON GARCIA
+----Autorizada mediante resolución--------
+---------N° DGT‐R‐48‐2016 del 07---------
+----------de octubre de 2016.---------------
+----------¡Gracias por su compra!--------------
+********Esperamos servirle de nuevo ************

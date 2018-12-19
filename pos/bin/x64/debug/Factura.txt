@@ -1,0 +1,30 @@
+
+    Fecha:     8/26/2018 2:55:26 PM
+                      No.Factura:
+            00100001040000000016                        
+Clave:
+5061808180031026714690010
+0001040000000059196849891                
+Voucher: 16
+        Tipo de pago : Efectivo
+          Facturado por: admin
+Cliente: Contado
+Cantidad        Artículo        Precio        Imp.
+----------------------------------------------------------
+      0.1          Bistec         ₡528        (G)
+         (E)=Exento              (G)=Gravado
+ARTICULOS=                      1
+SUBTOTAL=                      ₡467.26
+I.V.A.=                               ₡60.74
+DESCUENTO=                   ₡0.000
+TOTAL=                             ₡528.00
+------------------------------MONTO-------------
+PAGA CON:                        ₡528
+VUELTO=                           ₡0.000
+           ARTICULOS CON I.V.I.
+           VENDEDOR : RAMON GARCIA
+----Autorizada mediante resolución--------
+---------N° DGT‐R‐48‐2016 del 07---------
+----------de octubre de 2016.---------------
+----------¡Gracias por su compra!--------------
+********Esperamos servirle de nuevo ************

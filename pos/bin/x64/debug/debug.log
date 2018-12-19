@@ -1,0 +1,55 @@
+[0825/210905.670:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(65,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(87,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0825/211105.139:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(65,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(87,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0825/211214.559:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0825/211220.324:INFO:CONSOLE(191)] "2018-07-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0825/211226.293:INFO:CONSOLE(191)] "2018-08-25", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0825/211651.083:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0825/211701.880:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130404.192:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130407.833:INFO:CONSOLE(191)] "2018-07-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130414.842:INFO:CONSOLE(191)] "2018-08-25", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130424.292:INFO:CONSOLE(191)] "2018-08-24", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130436.516:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130450.008:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130454.392:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130501.377:INFO:CONSOLE(191)] "2018-08-25", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130522.546:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130534.610:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130625.226:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130701.633:INFO:CONSOLE(191)] "undefined", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/130833.690:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/131204.157:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/131932.141:WARNING:spdy_session.cc(2921)] Received HEADERS for invalid stream 3
+[0826/132016.112:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/132706.196:WARNING:spdy_session.cc(2921)] Received HEADERS for invalid stream 1
+[0826/133427.867:WARNING:spdy_session.cc(2921)] Received HEADERS for invalid stream 3
+[0826/133510.826:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0826/133510.855:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0826/133515.849:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0826/133515.872:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0826/133611.402:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/133644.506:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/134445.472:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/134552.662:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/134601.687:INFO:CONSOLE(191)] "undefined", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/135000.278:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/135005.500:INFO:CONSOLE(191)] "undefined", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/135015.276:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/140543.430:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/140702.961:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/140708.580:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/140712.330:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/140715.851:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/140733.365:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/140738.660:INFO:CONSOLE(191)] "undefined", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/141605.013:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0826/141610.033:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0826/141627.545:INFO:CONSOLE(191)] "2018-08-26", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/141634.168:INFO:CONSOLE(191)] "undefined", source: http://api.itcofe.com:8001/js/invoiceController.js (191)
+[0826/141640.312:WARNING:render_frame_host_impl.cc(2751)] OnDidStopLoading was called twice.
