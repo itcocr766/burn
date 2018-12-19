@@ -1,0 +1,177 @@
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\POS.exe.config
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\POS.exe
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\POS.pdb
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\EntityFramework.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\Google.Protobuf.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\MySql.Data.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\EntityFramework.xml
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\Google.Protobuf.xml
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\MySql.Data.xml
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.csprojAssemblyReference.cache
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.MESSAGEREQUESTMGRLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBAddInManager.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBCoLocator.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.qbconnector.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBCSBAxLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBDAGENT2003Lib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBFC10Lib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBFC12Lib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBFC13Lib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBINBOXLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBInstanceFinder.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBPOSXMLRPLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBPreferences.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBRequestAdaptorLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBScanManagerInfoLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBSDKCOMUtilLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBSDKEVENTLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBVersionToolLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBXL64BitConnector.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBXMLRP2Lib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QBXMLRPLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QFILLLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.QuickBooksInfoLib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\Interop.SERVICEMGR2003Lib.dll
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.csproj.ResolveComReference.cache
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Configuracion.configuracion.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Configuracion.Contrasenaconfig.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Contrasena.contrasena.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Vista.Abonos.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Vista.Apartados.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Vista.clientes.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Form1.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Properties.Resources.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Vista.Inicio.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Vista.MenuApartados.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Vista.productos.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Vista.Progress.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.Vista.vendedores.resources
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.csproj.GenerateResource.cache
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.csproj.CoreCompileInputs.cache
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.csproj.CopyComplete
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.exe
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.pdb
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\POS.exe.manifest
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\bin\Release\POS.application
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.exe.manifest
+C:\Users\Richard\Desktop\POSN\23 dia\POS\POS\obj\Release\POS.application
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\POS.exe.config
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\POS.exe.manifest
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\POS.application
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\POS.exe
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\POS.pdb
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\EntityFramework.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\Google.Protobuf.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\MySql.Data.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\EntityFramework.xml
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\Google.Protobuf.xml
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\bin\Release\MySql.Data.xml
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.csprojAssemblyReference.cache
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.MESSAGEREQUESTMGRLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBAddInManager.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBCoLocator.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.qbconnector.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBCSBAxLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBDAGENT2003Lib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBFC10Lib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBFC12Lib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBFC13Lib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBINBOXLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBInstanceFinder.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBPOSXMLRPLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBPreferences.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBRequestAdaptorLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBScanManagerInfoLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBSDKCOMUtilLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBSDKEVENTLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBVersionToolLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBXL64BitConnector.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBXMLRP2Lib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QBXMLRPLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QFILLLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.QuickBooksInfoLib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\Interop.SERVICEMGR2003Lib.dll
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.csproj.ResolveComReference.cache
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Configuracion.configuracion.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Configuracion.Contrasenaconfig.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Contrasena.contrasena.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Vista.Abonos.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Vista.Apartados.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Vista.clientes.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Form1.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Properties.Resources.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Vista.Inicio.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Vista.MenuApartados.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Vista.productos.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Vista.Progress.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.Vista.vendedores.resources
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.csproj.GenerateResource.cache
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.csproj.CoreCompileInputs.cache
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.exe.manifest
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.application
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.csproj.CopyComplete
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.exe
+C:\Users\Richard\Desktop\POSN\24 dia\POS\POS\obj\Release\POS.pdb
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.csprojAssemblyReference.cache
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.MESSAGEREQUESTMGRLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBAddInManager.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBCoLocator.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.qbconnector.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBCSBAxLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBDAGENT2003Lib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBFC10Lib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBFC12Lib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBFC13Lib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBINBOXLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBInstanceFinder.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBPOSXMLRPLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBPreferences.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBRequestAdaptorLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBScanManagerInfoLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBSDKCOMUtilLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBSDKEVENTLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBVersionToolLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBXL64BitConnector.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBXMLRP2Lib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QBXMLRPLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QFILLLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.QuickBooksInfoLib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\Interop.SERVICEMGR2003Lib.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.csproj.ResolveComReference.cache
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Configuracion.configuracion.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Configuracion.Contrasenaconfig.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Contrasena.contrasena.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Vista.Abonos.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Vista.Apartados.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Vista.clientes.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Form1.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Properties.Resources.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Vista.Inicio.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Vista.MenuApartados.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Vista.productos.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Vista.Progress.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.Vista.vendedores.resources
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.csproj.GenerateResource.cache
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.csproj.CoreCompileInputs.cache
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.exe
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.pdb
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\POS.exe.config
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\POS.exe.manifest
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\POS.application
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\POS.exe
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\POS.pdb
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\EntityFramework.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\Google.Protobuf.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\MySql.Data.dll
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\EntityFramework.xml
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\Google.Protobuf.xml
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\bin\Release\MySql.Data.xml
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.exe.manifest
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.application
+C:\Users\Richard\Desktop\POSN\conidisposable\POS\POS\obj\Release\POS.csproj.CopyComplete
