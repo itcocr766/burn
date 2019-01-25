@@ -1,0 +1,29 @@
+
+------------------------------------------------
+FECHA:     7/24/2018 8:11:35 PM
+CAJERO: 1
+CLIENTE: RICARDO MONTRERO
+SALDO INICIAL: 4500
+SALDO ANTERIOR: 4500
+SALDO ACTUAL: 0.00
+------------------------------------------------
+
+ABONOS HASTA EL MOMENTO:
+
+No.Factura              Monto abonado
+#17	                                    ₡2000
+7/12/2018 11:40:52 PM
+#17	                                    ₡1000
+7/12/2018 11:41:51 PM
+#17	                                    ₡1500
+7/13/2018 2:29:07 AM
+#22	                                    ₡4500
+7/24/2018 8:11:31 PM
+------------------------------------------------
+----Autorizada mediante resolución--------
+---------N° DGT‐R‐48‐2016 del 07---------
+----------de octubre de 2016.---------------
+------Factura generada por Factura----------
+------------para Quickbooks.----------------
+---------¡Gracias por su compra!--------------
+********Esperamos servirle de nuevo ************

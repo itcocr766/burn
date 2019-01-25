@@ -1,0 +1,43 @@
+Razón social:
+CUBIRAMI SOCIEDAD ANÓNIMA
+Ced.Jurídica:3101125675
+Correo:lanuevaunion@hotmail.com
+Lugar:San José
+Teléfono:2224-7042
+    Fecha:     12/10/2018 2:46:13 PM
+                      No.Factura:
+             00100001040000000934
+                        Clave:
+5061012180031026714690010
+0001040000000934166376443
+                Comprobante: 930
+                Tipo de documento:
+Tiquete Electrónico
+        Tipo de pago : Efectivo
+          Facturado por: admin
+              Cliente:
+Contado
+        Dirección:
+ Contado
+
+Cantidad        Precio        
+Artículo
+----------------------------------------------------------
+  2.19000000        ₡10,906.20
+          Mano de Piedra
+         (E)=Exento              (G)=Gravado
+ARTICULOS=                      1
+SUBTOTAL=                      ₡10,906.20
+I.V.A.=                               ₡0.00
+DESCUENTO=                   ₡0.000
+TOTAL=                             ₡10,906.20
+------------------------------MONTO-------------
+PAGA CON:                        ₡554,646,757
+VUELTO=                           ₡-554,635,850.800
+           ARTICULOS CON I.V.I.
+           VENDEDOR : VENDEDOR1
+----Autorizada mediante resolución--------
+---------N° DGT‐R‐48‐2016 del 07---------
+----------de octubre de 2016.---------------
+----------¡Gracias por su compra!--------------
+********Esperamos servirle de nuevo ************

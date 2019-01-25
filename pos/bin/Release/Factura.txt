@@ -1,0 +1,28 @@
+
+    Fecha:     7/24/2018 10:02:57 PM
+               No.Factura: 
+        Tipo de pago : Tarjeta
+          Facturado por: ramon valdez
+              Cliente: RICARDO MONTRERO
+Cantidad        Artículo        Precio        Imp.
+----------------------------------------------------------
+      1          DWDCECE        ₡4500        (G)
+         (0%)  Descuento =   ₡0.00
+         (E)=Exento              (G)=Gravado
+ARTICULOS=                      1
+SUBTOTAL=                      ₡4,500.00
+I.V.A.=                               ₡517.70
+DESCUENTO=                   ₡0.00
+TOTAL=                             ₡4,500.00
+------------------------------MONTO-------------
+PAGA CON:                        ₡5,000
+VUELTO=                           ₡-500.00
+           ARTICULOS CON I.V.I.
+           VENDEDOR : ADRIAN ROMERO
+----Autorizada mediante resolución--------
+---------N° DGT‐R‐48‐2016 del 07---------
+----------de octubre de 2016.---------------
+------Factura generada por Factura----------
+------------para Quickbooks.----------------
+---------¡Gracias por su compra!--------------
+********Esperamos servirle de nuevo ************

@@ -1,0 +1,4177 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:15 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:15 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:19 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:19 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:19 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:28 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:28 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:28 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:28 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:29 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:29 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:29 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 8:29 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : La conversión especificada no es válida.ocurrio a las 8:40 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : La conversión especificada no es válida.ocurrio a las 8:40 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : La conversión especificada no es válida.ocurrio a las 8:42 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 10:19 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 10:19 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 10:19 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 10:19 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 11:07 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 11:08 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 11:38 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 11:38 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 11:38 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 11:38 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 11:38 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 11:39 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 11:39 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 11:57 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 11:57 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 11:57 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 11:57 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 11:57 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 11:58 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 11:58 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 12:00 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 12:00 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 12:00 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 12:00 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 12:00 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 12:01 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 12:35 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 12:41 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 12:43 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:26 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 13:34 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:36 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:36 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:37 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 13:38 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 14:06 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se pudo encontrar el archivo 'C:\Users\Richard\source\repos\ProyectoPOS\WindowsFormsApp2\bin\Debug\Cnsv.txt'.ocurrio a las 14:57 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 14:59 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:13 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:13 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:14 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:14 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:15 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:16 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:18 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:20 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:22 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:23 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:25 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:26 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:29 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:31 el dia:15/05/2018 por el usuario: Richard
+
+
+err_0017
+
+err_0017
+
+err_0017
+
+err_0017
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:48 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:49 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:53 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:56 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:58 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 15:59 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:03 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:04 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:19 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:21 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:24 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:30 el dia:15/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:22 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:23 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:23 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:23 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:23 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:23 el dia:16/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 16:15 el dia:16/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:14 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:14 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:14 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:15 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:17 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:17 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:18 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:20 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:25 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:25 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:25 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:25 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:26 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:26 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:26 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:29 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:29 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 8:29 el dia:17/05/2018 por el usuario: Richard
+
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:38 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:38 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 8:38 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:15 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:15 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:15 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:16 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:16 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:16 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:19 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:19 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:21 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:21 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:21 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:24 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:24 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:24 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:24 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:25 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:25 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:25 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:25 el dia:17/05/2018 por el usuario: Richard
+
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:46 el dia:17/05/2018 por el usuario: Richard
+
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:56 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 10:56 el dia:17/05/2018 por el usuario: Richard
+
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 11:27 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 11:28 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 11:30 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 11:33 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:36 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:37 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:41 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:45 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:45 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:46 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:48 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:49 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:51 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:51 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:52 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:53 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:53 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:54 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:55 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 11:56 el dia:17/05/2018 por el usuario: Richard
+
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:49 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:49 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:49 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:49 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:49 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:50 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:52 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:52 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:52 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:52 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:52 el dia:17/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:52 el dia:17/05/2018 por el usuario: Richard
+
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+Error al limpiar el datagridview err_20
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 14:27 el dia:17/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 20:59 el dia:17/05/2018 por el usuario: Rix
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 20:59 el dia:17/05/2018 por el usuario: Rix
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 21:00 el dia:17/05/2018 por el usuario: Rix
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 21:00 el dia:17/05/2018 por el usuario: Rix
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 22:12 el dia:17/05/2018 por el usuario: Rix
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 22:13 el dia:17/05/2018 por el usuario: Rix
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 22:14 el dia:17/05/2018 por el usuario: Rix
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 22:15 el dia:17/05/2018 por el usuario: Rix
+
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:37 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:39 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:39 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:39 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:40 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:41 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:41 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:42 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:43 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:51 el dia:18/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:51 el dia:18/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:51 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:55 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:56 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 15:58 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 16:00 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 16:01 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 16:07 el dia:18/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+Se produjo el error err_003
+
+El error : No se pudo encontrar el archivo 'C:\Users\Richard\Desktop\final\ProyectoPOS\WindowsFormsApp2\bin\Debug\Clientes.xml'.ocurrio a las 0:10 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : No se pudo encontrar el archivo 'C:\Users\Richard\Desktop\final\ProyectoPOS\WindowsFormsApp2\bin\Debug\Clientes.xml'.ocurrio a las 0:12 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : No se pudo encontrar el archivo 'C:\Users\Richard\Desktop\final\ProyectoPOS\WindowsFormsApp2\bin\Debug\Clientes.xml'.ocurrio a las 0:12 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_003
+
+El error : No se pudo encontrar el archivo 'C:\Users\Richard\Desktop\final\ProyectoPOS\WindowsFormsApp2\bin\Debug\Clientes.xml'.ocurrio a las 0:12 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : No se pudo encontrar el archivo 'C:\Users\Richard\Desktop\final\ProyectoPOS\WindowsFormsApp2\bin\Debug\Clientes.xml'.ocurrio a las 0:16 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 18:41 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 18:41 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 18:41 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 18:41 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 18:42 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 18:42 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : El valor no puede ser nulo.
+Nombre del parámetro: Stringocurrio a las 18:44 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 18:47 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : Referencia a objeto no establecida como instancia de un objeto.ocurrio a las 18:50 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : La nueva fila sin confirmar no se puede eliminar.ocurrio a las 19:12 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : La nueva fila sin confirmar no se puede eliminar.ocurrio a las 19:12 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : El índice de fila proporcionado está fuera de rango.
+Nombre del parámetro: indexocurrio a las 19:13 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 19:48 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 19:48 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 19:48 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 19:49 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 19:49 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 19:49 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 20:05 el dia:19/05/2018 por el usuario: Richard
+
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 20:05 el dia:19/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_001 
+
+Se produjo el error err_002 
+
+Se produjo el error err_0033
+
+El error : InvalidArgument=El valor de '0' no es válido para 'SelectedIndex'.
+Nombre del parámetro: SelectedIndexocurrio a las 14:18 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : InvalidArgument=El valor de '0' no es válido para 'SelectedIndex'.
+Nombre del parámetro: SelectedIndexocurrio a las 14:18 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 15:37 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: indexocurrio a las 15:42 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:46 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:47 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:48 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:48 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:48 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:48 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:48 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:48 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:49 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:50 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:56 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 15:58 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 16:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 16:00 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 16:01 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:01 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:01 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:01 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:01 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:01 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:01 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:03 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:03 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:03 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Int32' al tipo 'System.String'.ocurrio a las 16:03 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 17:00 el dia:20/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 9:40 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 9:42 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 9:42 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 9:42 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 9:43 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 9:44 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 9:45 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 10:09 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 12:35 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 12:44 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 12:47 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 12:48 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 12:50 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 12:51 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 12:53 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 13:56 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 14:05 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 14:08 el dia:21/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_002 
+
+Se produjo el error err_0033
+
+Se produjo el error err_002 
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_001 
+
+Se produjo el error err_001 
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_002 
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 11:10 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 11:27 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 11:36 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: lengthocurrio a las 11:37 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : No se puede obtener acceso al objeto desechado.
+Nombre del objeto: 'Clientes'.ocurrio a las 14:56 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : No se puede obtener acceso al objeto desechado.
+Nombre del objeto: 'Clientes'.ocurrio a las 14:56 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : No se puede obtener acceso al objeto desechado.
+Nombre del objeto: 'Clientes'.ocurrio a las 14:57 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : No se puede obtener acceso al objeto desechado.
+Nombre del objeto: 'Clientes'.ocurrio a las 14:57 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : No se puede obtener acceso al objeto desechado.
+Nombre del objeto: 'Clientes'.ocurrio a las 14:57 el dia:22/05/2018 por el usuario: Richard
+
+
+El error : No se puede obtener acceso al objeto desechado.
+Nombre del objeto: 'Clientes'.ocurrio a las 15:00 el dia:22/05/2018 por el usuario: Richard
+
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+Se produjo el error err_003
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_0033
+
+Se produjo el error err_001 
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:13 el dia:23/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:15 el dia:23/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:17 el dia:23/05/2018 por el usuario: Richard
+
+
+El error : La cadena de entrada no tiene el formato correcto.ocurrio a las 12:19 el dia:23/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.ocurrio a las 12:22 el dia:23/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.ocurrio a las 12:23 el dia:23/05/2018 por el usuario: Richard
+
+
+El error : No se puede convertir un objeto de tipo 'System.Double' al tipo 'System.String'.ocurrio a las 12:23 el dia:23/05/2018 por el usuario: Richard
+
