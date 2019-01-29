@@ -54,5 +54,23 @@ namespace POS.Vista
                 MessageBox.Show(k.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Hand);
             }
         }
+
+        private void configuracion_Load(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex = 0;
+            comboBox3.SelectedIndex = 0;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            configuraciondecadenas("companiapi", textBox2.Text);
+            configuraciondecadenas("sucursal", textBox1.Text);
+            configuraciondecadenas("endpoint", textBox3.Text);
+          
+
+            MessageBox.Show(ConfigurationManager.AppSettings["companiapi"]
+                + "\n" + ConfigurationManager.AppSettings["sucursal"] +
+                "\n" + ConfigurationManager.AppSettings["endpoint"], "Listo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

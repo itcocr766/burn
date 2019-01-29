@@ -354,8 +354,8 @@ namespace POS
                     /////////////////////////////////////////////////////FEEEEEEEEEEEEEEEEE///////////////////////////////////////////////////
                     FE f = new FE()
                     {
-                        //CompanyAPI = "82b3ce2d-c8c7-4318-8e4d-f8968c1d9994"
-                        CompanyAPI = "749ad71a-8e08-48b4-a5c1-6a5de55b677f"
+                        
+                        CompanyAPI = ConfigurationManager.AppSettings["companiapi"]
 
                     };
 
@@ -372,7 +372,7 @@ namespace POS
 
                     f.Key = new KEY()
                     {
-                        Branch = "001",
+                        Branch = ConfigurationManager.AppSettings["sucursal"],
                         Terminal = "001",
                         Type = type,
                         Voucher = numeroRecibido,
@@ -643,8 +643,8 @@ namespace POS
 
 
 
-            //string urlAPI = "http://192.168.0.254:8080/api/invoice/";
-            string urlAPI = "http://104.43.136.13:8080/api/invoice/";
+
+            string urlAPI = ConfigurationManager.AppSettings["endpoint"];
 
             string api = urlAPI + "/api/invoice";
 
