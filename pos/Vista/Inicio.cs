@@ -150,5 +150,11 @@ namespace POS.Vista
 
             }
         }
+
+        private void configToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            configuracion conf = new configuracion();
+            conf.Show(this);
+        }
     }
 }

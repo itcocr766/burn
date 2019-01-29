@@ -370,6 +370,12 @@
     <Compile Include="Vista\administracion.Designer.cs">
       <DependentUpon>administracion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vista\configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\configuracion.Designer.cs">
+      <DependentUpon>configuracion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -519,6 +525,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\administracion.resx">
       <DependentUpon>administracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\configuracion.resx">
+      <DependentUpon>configuracion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
