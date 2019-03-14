@@ -63,9 +63,9 @@ namespace POS.Vista
 
         private void button2_Click(object sender, EventArgs e)
         {
-            configuraciondecadenas("companiapi", textBox2.Text);
-            configuraciondecadenas("sucursal", textBox1.Text);
-            configuraciondecadenas("endpoint", textBox3.Text);
+            configuraciondecadenas("companiapi", comboBox1.Text);
+            configuraciondecadenas("sucursal", textBox6.Text);
+            configuraciondecadenas("endpoint", comboBox3.Text);
           
 
             MessageBox.Show(ConfigurationManager.AppSettings["companiapi"]

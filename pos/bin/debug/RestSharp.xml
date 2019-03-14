@@ -118,33 +118,28 @@
             <summary>
                 All text parameters are UTF-8 encoded (per section 5.1).
             </summary>
-            <seealso cref="!:http://www.hueniverse.com/hueniverse/2008/10/beginners-gui-1.html" />
         </member>
         <member name="F:RestSharp.Authenticators.OAuth.OAuthTools.uriRfc3986CharsToEscape">
             <summary>
                 The set of characters that are unreserved in RFC 2396 but are NOT unreserved in RFC 3986.
             </summary>
-            <seealso cref="!:http://stackoverflow.com/questions/846487/how-to-get-uri-escapedatastring-to-comply-with-rfc-3986" />
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthTools.GetNonce">
             <summary>
                 Generates a random 16-byte lowercase alphanumeric string.
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#nonce" />
             <returns></returns>
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthTools.GetTimestamp">
             <summary>
                 Generates a timestamp based on the current elapsed seconds since '01/01/1970 0000 GMT"
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#nonce" />
             <returns></returns>
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthTools.GetTimestamp(System.DateTime)">
             <summary>
                 Generates a timestamp based on the elapsed seconds of a given time since '01/01/1970 0000 GMT"
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#nonce" />
             <param name="dateTime">A specified point in time.</param>
             <returns></returns>
         </member>
@@ -162,8 +157,6 @@
                 actually worked (which in my experiments it <i>doesn't</i>), we can't rely on every
                 host actually having this configuration element present.
             </remarks>
-            <seealso cref="!:http://oauth.net/core/1.0#encoding_parameters" />
-            <seealso cref="!:http://stackoverflow.com/questions/846487/how-to-get-uri-escapedatastring-to-comply-with-rfc-3986" />
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthTools.UrlEncodeStrict(System.String)">
             <summary>
@@ -172,7 +165,6 @@
                 upper-casing hexadecimal characters, and UTF-8 encoding for text value pairs.
             </summary>
             <param name="value"></param>
-            <seealso cref="!:http://oauth.net/core/1.0#encoding_parameters" />
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthTools.NormalizeRequestParameters(RestSharp.Authenticators.OAuth.WebParameterCollection)">
             <summary>
@@ -180,7 +172,6 @@
                 concatenating them into a single string. This string should be encoded
                 prior to, or after normalization is run.
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#rfc.section.9.1.1" />
             <param name="parameters"></param>
             <returns></returns>
         </member>
@@ -197,20 +188,17 @@
                 Resulting URLs must exclude port 80 or port 443 when accompanied by HTTP and HTTPS, respectively.
                 Resulting URLs must be lower case.
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#rfc.section.9.1.2" />
             <param name="url">The original request URL</param>
             <returns></returns>
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthTools.ConcatenateRequestElements(System.String,System.String,RestSharp.Authenticators.OAuth.WebParameterCollection)">
             <summary>
-                Creates a request elements concatentation value to send with a request.
+                Creates a request elements concatenation value to send with a request.
                 This is also known as the signature base.
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#rfc.section.9.1.3" />
-            <seealso cref="!:http://oauth.net/core/1.0#sig_base_example" />
-            <param name="method">The request's HTTP method type</param>
+            <param name="method">The request HTTP method type</param>
             <param name="url">The request URL</param>
-            <param name="parameters">The request's parameters</param>
+            <param name="parameters">The request parameters</param>
             <returns>A signature base string</returns>
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthTools.GetSignature(RestSharp.Authenticators.OAuth.OAuthSignatureMethod,System.String,System.String)">
@@ -218,7 +206,6 @@
                 Creates a signature value given a signature base and the consumer secret.
                 This method is used when the token secret is currently unknown.
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#rfc.section.9.2" />
             <param name="signatureMethod">The hashing method</param>
             <param name="signatureBase">The signature base</param>
             <param name="consumerSecret">The consumer key</param>
@@ -229,7 +216,6 @@
                 Creates a signature value given a signature base and the consumer secret.
                 This method is used when the token secret is currently unknown.
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#rfc.section.9.2" />
             <param name="signatureMethod">The hashing method</param>
             <param name="signatureTreatment">The treatment to use on a signature value</param>
             <param name="signatureBase">The signature base</param>
@@ -240,7 +226,6 @@
             <summary>
                 Creates a signature value given a signature base and the consumer secret and a known token secret.
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#rfc.section.9.2" />
             <param name="signatureMethod">The hashing method</param>
             <param name="signatureBase">The signature base</param>
             <param name="consumerSecret">The consumer secret</param>
@@ -251,7 +236,6 @@
             <summary>
                 Creates a signature value given a signature base and the consumer secret and a known token secret.
             </summary>
-            <seealso cref="!:http://oauth.net/core/1.0#rfc.section.9.2" />
             <param name="signatureMethod">The hashing method</param>
             <param name="signatureTreatment">The treatment to use on a signature value</param>
             <param name="signatureBase">The signature base</param>
@@ -262,17 +246,7 @@
         <member name="T:RestSharp.Authenticators.OAuth.OAuthWorkflow">
             <summary>
                 A class to encapsulate OAuth authentication flow.
-                <seealso cref="!:http://oauth.net/core/1.0#anchor9" />
             </summary>
-        </member>
-        <member name="P:RestSharp.Authenticators.OAuth.OAuthWorkflow.RequestTokenUrl">
-            <seealso cref="!:http://oauth.net/core/1.0#request_urls" />
-        </member>
-        <member name="P:RestSharp.Authenticators.OAuth.OAuthWorkflow.AccessTokenUrl">
-            <seealso cref="!:http://oauth.net/core/1.0#request_urls" />
-        </member>
-        <member name="P:RestSharp.Authenticators.OAuth.OAuthWorkflow.AuthorizationUrl">
-            <seealso cref="!:http://oauth.net/core/1.0#request_urls" />
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthWorkflow.BuildRequestTokenInfo(System.String)">
             <summary>
@@ -281,7 +255,6 @@
                 unauthorized request token.
             </summary>
             <param name="method">The HTTP method for the intended request</param>
-            <seealso cref="!:http://oauth.net/core/1.0#anchor9" />
             <returns></returns>
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthWorkflow.BuildRequestTokenInfo(System.String,RestSharp.Authenticators.OAuth.WebParameterCollection)">
@@ -292,7 +265,6 @@
             </summary>
             <param name="method">The HTTP method for the intended request</param>
             <param name="parameters">Any existing, non-OAuth query parameters desired in the request</param>
-            <seealso cref="!:http://oauth.net/core/1.0#anchor9" />
             <returns></returns>
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthWorkflow.BuildAccessTokenInfo(System.String)">
@@ -302,7 +274,6 @@
                 for an access token authorized by the user at the Service Provider site.
             </summary>
             <param name="method">The HTTP method for the intended request</param>
-            <seealso cref="!:http://oauth.net/core/1.0#anchor9" />
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthWorkflow.BuildAccessTokenInfo(System.String,RestSharp.Authenticators.OAuth.WebParameterCollection)">
             <summary>
@@ -311,7 +282,6 @@
                 for an access token authorized by the user at the Service Provider site.
             </summary>
             <param name="method">The HTTP method for the intended request</param>
-            <seealso cref="!:http://oauth.net/core/1.0#anchor9" />
             <param name="parameters">Any existing, non-OAuth query parameters desired in the request</param>
         </member>
         <member name="M:RestSharp.Authenticators.OAuth.OAuthWorkflow.BuildClientAuthAccessTokenInfo(System.String,RestSharp.Authenticators.OAuth.WebParameterCollection)">
@@ -321,33 +291,7 @@
                 for an access token authorized by the user at the Service Provider site.
             </summary>
             <param name="method">The HTTP method for the intended request</param>
-            <seealso cref="!:http://tools.ietf.org/html/draft-dehora-farrell-oauth-accesstoken-creds-00#section-4" />
             <param name="parameters">Any existing, non-OAuth query parameters desired in the request</param>
-        </member>
-        <member name="T:RestSharp.Deserializers.DeserializeAsAttribute">
-            <summary>
-            Allows control how class and property names and values are deserialized by XmlAttributeDeserializer
-            </summary>
-        </member>
-        <member name="P:RestSharp.Deserializers.DeserializeAsAttribute.Name">
-            <summary>
-            The name to use for the serialized element
-            </summary>
-        </member>
-        <member name="P:RestSharp.Deserializers.DeserializeAsAttribute.Attribute">
-            <summary>
-            Sets if the property to Deserialize is an Attribute or Element (Default: false)
-            </summary>
-        </member>
-        <member name="P:RestSharp.Deserializers.DeserializeAsAttribute.Content">
-            <summary>
-            Sets if the property to Deserialize is a content of current Element (Default: false)
-            </summary>
-        </member>
-        <member name="T:RestSharp.Deserializers.DotNetXmlDeserializer">
-            <summary>
-            Wrapper for System.Xml.Serialization.XmlSerializer.
-            </summary>
         </member>
         <member name="T:RestSharp.ParameterType">
             <summary>
@@ -410,13 +354,22 @@
             <param name="input">The input stream.</param>
             <param name="output">The output stream.</param>
         </member>
+        <member name="M:RestSharp.Extensions.MiscExtensions.AsString(System.Byte[],System.String)">
+            <summary>
+                Converts a byte array to a string, using its byte order mark to convert it to the right encoding.
+                http://www.shrinkrays.net/code-snippets/csharp/an-extension-method-for-converting-a-byte-array-to-a-string.aspx
+            </summary>
+            <param name="buffer">An array of bytes to convert</param>
+            <param name="encoding">Content encoding. Will fallback to UTF8 if not a valid encoding.</param>
+            <returns>The byte as a string.</returns>
+        </member>
         <member name="M:RestSharp.Extensions.MiscExtensions.AsString(System.Byte[])">
             <summary>
                 Converts a byte array to a string, using its byte order mark to convert it to the right encoding.
                 http://www.shrinkrays.net/code-snippets/csharp/an-extension-method-for-converting-a-byte-array-to-a-string.aspx
             </summary>
             <param name="buffer">An array of bytes to convert</param>
-            <returns>The byte as a string.</returns>
+            <returns>The byte as a string using UTF8.</returns>
         </member>
         <member name="T:RestSharp.Extensions.ReflectionExtensions">
             <summary>
@@ -619,6 +572,17 @@
             <param name="name">The parameter name to use in the request.</param>
             <param name="data">The data to use as the file's contents.</param>
             <param name="filename">The filename to use in the request.</param>
+            <returns>The <see cref="T:RestSharp.FileParameter"/> using the default content type.</returns>
+        </member>
+        <member name="M:RestSharp.FileParameter.Create(System.String,System.Action{System.IO.Stream},System.Int64,System.String,System.String)">
+            <summary>
+             Creates a file parameter from an array of bytes.
+            </summary>
+            <param name="name">The parameter name to use in the request.</param>
+            <param name="writer">Delegate that will be called with the request stream so you can write to it..</param>
+            <param name="contentLength">The length of the data that will be written by te writer.</param>
+            <param name="fileName">The filename to use in the request.</param>
+            <param name="contentType">Optional: parameter content type</param>
             <returns>The <see cref="T:RestSharp.FileParameter"/> using the default content type.</returns>
         </member>
         <member name="P:RestSharp.FileParameter.ContentLength">
@@ -1058,88 +1022,88 @@
         </member>
         <member name="T:RestSharp.HttpResponse">
             <summary>
-            HTTP response data
+                HTTP response data
             </summary>
         </member>
         <member name="M:RestSharp.HttpResponse.#ctor">
             <summary>
-            Default constructor
+                Default constructor
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.ContentType">
             <summary>
-            MIME content type of response
+                MIME content type of response
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.ContentLength">
             <summary>
-            Length in bytes of the response content
+                Length in bytes of the response content
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.ContentEncoding">
             <summary>
-            Encoding of the response content
+                Encoding of the response content
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.Content">
             <summary>
-            Lazy-loaded string representation of response content
+                Lazy-loaded string representation of response content
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.StatusCode">
             <summary>
-            HTTP response status code
+                HTTP response status code
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.StatusDescription">
             <summary>
-            Description of HTTP status returned
+                Description of HTTP status returned
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.RawBytes">
             <summary>
-            Response content
+                Response content
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.ResponseUri">
             <summary>
-            The URL that actually responded to the content (different from request if redirected)
+                The URL that actually responded to the content (different from request if redirected)
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.Server">
             <summary>
-            HttpWebResponse.Server
+                HttpWebResponse.Server
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.Headers">
             <summary>
-            Headers returned by server with the response
+                Headers returned by server with the response
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.Cookies">
             <summary>
-            Cookies returned by server with the response
+                Cookies returned by server with the response
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.ResponseStatus">
             <summary>
-            Status of the request. Will return Error for transport errors.
-            HTTP errors will still return ResponseStatus.Completed, check StatusCode instead
+                Status of the request. Will return Error for transport errors.
+                HTTP errors will still return ResponseStatus.Completed, check StatusCode instead
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.ErrorMessage">
             <summary>
-            Transport or other non-HTTP error generated while attempting request
+                Transport or other non-HTTP error generated while attempting request
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.ErrorException">
             <summary>
-            Exception thrown when error is encountered.
+                Exception thrown when error is encountered.
             </summary>
         </member>
         <member name="P:RestSharp.HttpResponse.ProtocolVersion">
             <summary>
-            The HTTP protocol version (1.0, 1.1, etc)
+                The HTTP protocol version (1.0, 1.1, etc)
             </summary>
             <remarks>Only set when underlying framework supports it.</remarks>
         </member>
@@ -1240,6 +1204,22 @@
             </summary>
             <remarks>Only set when underlying framework supports it.</remarks>
         </member>
+        <member name="M:RestSharp.IRestClient.UseUrlEncoder(System.Func{System.String,System.String})">
+            <summary>
+            Allows to use a custom way to encode URL parameters
+            </summary>
+            <param name="encoder">A delegate to encode URL parameters</param>
+            <example>client.UseUrlEncoder(s => HttpUtility.UrlEncode(s));</example>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.IRestClient.UseQueryEncoder(System.Func{System.String,System.Text.Encoding,System.String})">
+            <summary>
+            Allows to use a custom way to encode query parameters
+            </summary>
+            <param name="queryEncoder">A delegate to encode query parameters</param>
+            <example>client.UseUrlEncoder((s, encoding) => HttpUtility.UrlEncode(s, encoding));</example>
+            <returns></returns>
+        </member>
         <member name="P:RestSharp.IRestClient.ClientCertificates">
             <summary>
             X509CertificateCollection to be sent with request
@@ -1297,6 +1277,13 @@
             </summary>
             <param name="contentType">Content type for which the deserializer will be replaced</param>
             <param name="deserializer">Custom deserializer</param>
+        </member>
+        <member name="M:RestSharp.IRestClient.AddHandler(System.String,System.Func{RestSharp.Deserializers.IDeserializer})">
+            <summary>
+            Adds or replaces a deserializer for the specified content type
+            </summary>
+            <param name="contentType">Content type for which the deserializer will be replaced</param>
+            <param name="deserializerFactory">Custom deserializer factory</param>
         </member>
         <member name="M:RestSharp.IRestClient.RemoveHandler(System.String)">
             <summary>
@@ -1417,7 +1404,7 @@
         <member name="P:RestSharp.IRestRequest.JsonSerializer">
             <summary>
             Serializer to use when writing JSON request bodies. Used if RequestFormat is Json.
-            By default the included JsonSerializer is used (currently using JSON.NET default serialization).
+            By default the included JsonSerializer is used (currently using SimpleJson default serialization).
             </summary>
         </member>
         <member name="P:RestSharp.IRestRequest.XmlSerializer">
@@ -1880,6 +1867,11 @@
             Type of the parameter
             </summary>
         </member>
+        <member name="P:RestSharp.Parameter.DataFormat">
+            <summary>
+            Body parameter data type
+            </summary>
+        </member>
         <member name="P:RestSharp.Parameter.ContentType">
             <summary>
             MIME content type of the parameter
@@ -1902,6 +1894,7 @@
             </summary>
             <param name="request">Request to be executed</param>
             <param name="callback">Callback function to be executed upon completion providing access to the async handle.</param>
+            <param name="httpMethod">HTTP call method (GET, PUT, etc)</param>
         </member>
         <member name="M:RestSharp.RestClient.ExecuteAsync(RestSharp.IRestRequest,System.Action{RestSharp.IRestResponse,RestSharp.RestRequestAsyncHandle})">
             <summary>
@@ -2089,6 +2082,35 @@
             </summary>
             <param name="baseUrl"></param>
         </member>
+        <member name="M:RestSharp.RestClient.UseSerializer(RestSharp.Serialization.IRestSerializer)">
+            <summary>
+            Replace the default serializer with a custom one
+            </summary>
+            <param name="serializer">The custom serializer instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.RestClient.UseSerializer(System.Func{RestSharp.Serialization.IRestSerializer})">
+            <summary>
+            Replace the default serializer with a custom one
+            </summary>
+            <param name="serializerFactory">A function that creates a custom serializer instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.RestClient.UseSerializer``1">
+            <summary>
+            Replace the default serializer with a custom one
+            </summary>
+            <typeparam name="T">The type that implements IRestSerializer</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.RestClient.UseUrlEncoder(System.Func{System.String,System.String})">
+            <summary>
+            Allows to use a custom way to encode parameters
+            </summary>
+            <param name="encoder">A delegate to encode parameters</param>
+            <example>client.UseUrlEncoder(s => HttpUtility.UrlEncode(s));</example>
+            <returns></returns>
+        </member>
         <member name="P:RestSharp.RestClient.AutomaticDecompression">
             <summary>
             Enable or disable automatic gzip/deflate decompression
@@ -2133,7 +2155,8 @@
         </member>
         <member name="P:RestSharp.RestClient.Timeout">
             <summary>
-                Timeout in milliseconds to use for requests made by this client instance
+                Timeout in milliseconds to use for requests made by this client instance.
+                If not set, the default timeout for HttpWebRequest is used.
             </summary>
         </member>
         <member name="P:RestSharp.RestClient.ReadWriteTimeout">
@@ -2159,6 +2182,12 @@
             <example>
                 client.BaseUrl = new Uri("http://example.com");
             </example>
+        </member>
+        <member name="P:RestSharp.RestClient.FailOnDeserializationError">
+            <summary>
+            Set to false if you want to get ResponseStatus.Completed when deserialization fails.
+            Default is true.
+            </summary>
         </member>
         <member name="P:RestSharp.RestClient.UnsafeAuthenticatedConnectionSharing">
             <summary>
@@ -2194,11 +2223,32 @@
                 Only query and form parameters are supported.
             </summary>
         </member>
+        <member name="M:RestSharp.RestClient.AddHandler(System.String,System.Func{RestSharp.Deserializers.IDeserializer})">
+            <summary>
+                Registers a content handler to process response content
+            </summary>
+            <param name="contentType">MIME content type of the response content</param>
+            <param name="deserializerFactory">Deserializer to use to process content</param>
+        </member>
         <member name="M:RestSharp.RestClient.AddHandler(System.String,RestSharp.Deserializers.IDeserializer)">
             <summary>
                 Registers a content handler to process response content
             </summary>
             <param name="contentType">MIME content type of the response content</param>
+            <param name="deserializer">Deserializer to use to process content</param>
+        </member>
+        <member name="M:RestSharp.RestClient.AddHandler(System.Func{RestSharp.Deserializers.IDeserializer},System.String[])">
+            <summary>
+                Registers a content handler to process response content
+            </summary>
+            <param name="contentTypes">A list of MIME content types of the response content</param>
+            <param name="deserializerFactory">Deserializer factory to use to process content</param>
+        </member>
+        <member name="M:RestSharp.RestClient.AddHandler(RestSharp.Deserializers.IDeserializer,System.String[])">
+            <summary>
+                Registers a content handler to process response content
+            </summary>
+            <param name="contentTypes">A list of MIME content types of the response content</param>
             <param name="deserializer">Deserializer to use to process content</param>
         </member>
         <member name="M:RestSharp.RestClient.RemoveHandler(System.String)">
@@ -2218,13 +2268,6 @@
             </summary>
             <param name="request">RestRequest to execute</param>
             <returns>Assembled System.Uri</returns>
-        </member>
-        <member name="M:RestSharp.RestClient.GetHandler(System.String)">
-            <summary>
-                Retrieve the handler for the specified MIME content type
-            </summary>
-            <param name="contentType">MIME content type to retrieve</param>
-            <returns>IDeserializer instance</returns>
         </member>
         <member name="M:RestSharp.RestClient.DownloadData(RestSharp.IRestRequest)">
             <summary>
@@ -2362,7 +2405,7 @@
         </member>
         <member name="M:RestSharp.RestClientExtensions.AddDefaultParameter(RestSharp.IRestClient,System.String,System.Object)">
             <summary>
-            Adds a HTTP parameter (QueryString for GET, DELETE, OPTIONS and HEAD; Encoded form for POST and PUT)
+            Adds a default HTTP parameter (QueryString for GET, DELETE, OPTIONS and HEAD; Encoded form for POST and PUT)
             Used on every request made by this client instance
             </summary>
             <param name="restClient">The IRestClient instance</param>
@@ -2372,11 +2415,12 @@
         </member>
         <member name="M:RestSharp.RestClientExtensions.AddDefaultParameter(RestSharp.IRestClient,System.String,System.Object,RestSharp.ParameterType)">
             <summary>
-            Adds a parameter to the request. There are four types of parameters:
+            Adds a default parameter to the request. There are four types of parameters:
                - GetOrPost: Either a QueryString value or encoded form value based on method
                - HttpHeader: Adds the name/value pair to the HTTP request's Headers collection
                - UrlSegment: Inserted into URL if there is a matching url token e.g. {AccountId}
                - RequestBody: Used by AddBody() (not recommended to use directly)
+            Used on every request made by this client instance
             </summary>
             <param name="restClient">The IRestClient instance</param>
             <param name="name">Name of the parameter</param>
@@ -2386,7 +2430,7 @@
         </member>
         <member name="M:RestSharp.RestClientExtensions.AddDefaultHeader(RestSharp.IRestClient,System.String,System.String)">
             <summary>
-            Shortcut to AddDefaultParameter(name, value, HttpHeader) overload
+            Adds a default header to the RestClient. Used on every request made by this client instance.
             </summary>
             <param name="restClient">The IRestClient instance</param>
             <param name="name">Name of the header to add</param>
@@ -2395,11 +2439,20 @@
         </member>
         <member name="M:RestSharp.RestClientExtensions.AddDefaultUrlSegment(RestSharp.IRestClient,System.String,System.String)">
             <summary>
-            Shortcut to AddDefaultParameter(name, value, UrlSegment) overload
+            Adds a default URL segment parameter to the RestClient. Used on every request made by this client instance.
             </summary>
             <param name="restClient">The IRestClient instance</param>
             <param name="name">Name of the segment to add</param>
             <param name="value">Value of the segment to add</param>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.RestClientExtensions.AddDefaultQueryParameter(RestSharp.IRestClient,System.String,System.String)">
+            <summary>
+            Adds a default URL query parameter to the RestClient. Used on every request made by this client instance.
+            </summary>
+            <param name="restClient">The IRestClient instance</param>
+            <param name="name">Name of the query parameter to add</param>
+            <param name="value">Value of the query parameter to add</param>
             <returns></returns>
         </member>
         <member name="T:RestSharp.RestRequest">
@@ -2407,9 +2460,9 @@
                 Container for data used to make requests
             </summary>
         </member>
-        <member name="F:RestSharp.RestRequest.alloweDecompressionMethods">
+        <member name="F:RestSharp.RestRequest._allowedDecompressionMethods">
             <summary>
-                Local list of Allowed Decompresison Methods
+                Local list of Allowed Decompression Methods
             </summary>
         </member>
         <member name="M:RestSharp.RestRequest.#ctor">
@@ -2421,32 +2474,6 @@
             <summary>
                 Sets Method property to value of method
             </summary>
-            <param name="method">Method to use for this request</param>
-        </member>
-        <member name="M:RestSharp.RestRequest.#ctor(System.String)">
-            <summary>
-                Sets Resource property
-            </summary>
-            <param name="resource">Resource to use for this request</param>
-        </member>
-        <member name="M:RestSharp.RestRequest.#ctor(System.String,RestSharp.Method)">
-            <summary>
-                Sets Resource and Method properties
-            </summary>
-            <param name="resource">Resource to use for this request</param>
-            <param name="method">Method to use for this request</param>
-        </member>
-        <member name="M:RestSharp.RestRequest.#ctor(System.Uri)">
-            <summary>
-                Sets Resource property
-            </summary>
-            <param name="resource">Resource to use for this request</param>
-        </member>
-        <member name="M:RestSharp.RestRequest.#ctor(System.Uri,RestSharp.Method)">
-            <summary>
-                Sets Resource and Method properties
-            </summary>
-            <param name="resource">Resource to use for this request</param>
             <param name="method">Method to use for this request</param>
         </member>
         <member name="P:RestSharp.RestRequest.UserState">
@@ -2568,7 +2595,6 @@
         </member>
         <member name="M:RestSharp.RestRequest.AddXmlBody(System.Object,System.String)">
             <summary>
-                Serializes obj to format specified by RequestFormat, but passes xmlNamespace if using the default XmlSerializer
                 Serializes obj to XML format and passes xmlNamespace then adds it to the request body.
             </summary>
             <param name="obj">The object to serialize</param>
@@ -3022,91 +3048,77 @@
             Version of the cookie
             </summary>
         </member>
-        <member name="T:RestSharp.Serializers.DotNetXmlSerializer">
-            <summary>
-                Wrapper for System.Xml.Serialization.XmlSerializer.
-            </summary>
-        </member>
-        <member name="M:RestSharp.Serializers.DotNetXmlSerializer.#ctor">
-            <summary>
-                Default constructor, does not specify namespace
-            </summary>
-        </member>
-        <member name="M:RestSharp.Serializers.DotNetXmlSerializer.#ctor(System.String)">
-            <inheritdoc />
-            <summary>
-                Specify the namespaced to be used when serializing
-            </summary>
-            <param name="namespace">XML namespace</param>
-        </member>
-        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.Encoding">
-            <summary>
-                Encoding for serialized content
-            </summary>
-        </member>
-        <member name="M:RestSharp.Serializers.DotNetXmlSerializer.Serialize(System.Object)">
-            <summary>
-                Serialize the object as XML
-            </summary>
-            <param name="obj">Object to serialize</param>
-            <returns>XML as string</returns>
-        </member>
-        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.RootElement">
-            <summary>
-                Name of the root element to use when serializing
-            </summary>
-        </member>
-        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.Namespace">
-            <summary>
-                XML namespace to use when serializing
-            </summary>
-        </member>
-        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.DateFormat">
-            <summary>
-                Format string to use when serializing dates
-            </summary>
-        </member>
-        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.ContentType">
-            <summary>
-                Content type for serialized content
-            </summary>
-        </member>
-        <member name="T:RestSharp.Serializers.JsonSerializer">
-            <summary>
-            Default JSON serializer for request bodies
-            Doesn't currently use the SerializeAs attribute, defers to Newtonsoft's attributes
-            </summary>
-        </member>
-        <member name="M:RestSharp.Serializers.JsonSerializer.#ctor">
-            <summary>
-            Default serializer
-            </summary>
-        </member>
-        <member name="M:RestSharp.Serializers.JsonSerializer.Serialize(System.Object)">
+        <member name="M:RestSharp.Serialization.Json.JsonSerializer.Serialize(System.Object)">
             <summary>
             Serialize the object as JSON
+            If the object is already a serialized string returns it's value
             </summary>
             <param name="obj">Object to serialize</param>
             <returns>JSON as String</returns>
         </member>
-        <member name="P:RestSharp.Serializers.JsonSerializer.DateFormat">
+        <member name="M:RestSharp.Serialization.Json.JsonSerializer.IsSerializedString(System.Object,System.String@)">
             <summary>
-            Unused for JSON Serialization
+            Determines if the object is already a serialized string.
             </summary>
         </member>
-        <member name="P:RestSharp.Serializers.JsonSerializer.RootElement">
-            <summary>
-            Unused for JSON Serialization
-            </summary>
-        </member>
-        <member name="P:RestSharp.Serializers.JsonSerializer.Namespace">
-            <summary>
-            Unused for JSON Serialization
-            </summary>
-        </member>
-        <member name="P:RestSharp.Serializers.JsonSerializer.ContentType">
+        <member name="P:RestSharp.Serialization.Json.JsonSerializer.ContentType">
             <summary>
             Content type for serialized content
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serialization.Xml.XmlSerilizationOptions.RootElement">
+            <summary>
+                Name of the root element to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serialization.Xml.XmlSerilizationOptions.Namespace">
+            <summary>
+                XML namespace to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serialization.Xml.XmlSerilizationOptions.DateFormat">
+            <summary>
+                Format string to use when serializing dates
+            </summary>
+        </member>
+        <member name="T:RestSharp.Deserializers.DeserializeAsAttribute">
+            <summary>
+            Allows control how class and property names and values are deserialized by XmlAttributeDeserializer
+            </summary>
+        </member>
+        <member name="P:RestSharp.Deserializers.DeserializeAsAttribute.Name">
+            <summary>
+            The name to use for the serialized element
+            </summary>
+        </member>
+        <member name="P:RestSharp.Deserializers.DeserializeAsAttribute.Attribute">
+            <summary>
+            Sets if the property to Deserialize is an Attribute or Element (Default: false)
+            </summary>
+        </member>
+        <member name="P:RestSharp.Deserializers.DeserializeAsAttribute.Content">
+            <summary>
+            Sets if the property to Deserialize is a content of current Element (Default: false)
+            </summary>
+        </member>
+        <member name="T:RestSharp.Deserializers.DotNetXmlDeserializer">
+            <summary>
+            Wrapper for System.Xml.Serialization.XmlSerializer.
+            </summary>
+        </member>
+        <member name="P:RestSharp.Deserializers.DotNetXmlDeserializer.RootElement">
+            <summary>
+                Name of the root element to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Deserializers.DotNetXmlDeserializer.Namespace">
+            <summary>
+                XML namespace to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Deserializers.DotNetXmlDeserializer.Encoding">
+            <summary>
+                Encoding for serialized content
             </summary>
         </member>
         <member name="T:RestSharp.Serializers.SerializeAsAttribute">
@@ -3158,6 +3170,55 @@
             Options for transforming casing of element names
             </summary>
         </member>
+        <member name="T:RestSharp.Serializers.DotNetXmlSerializer">
+            <summary>
+                Wrapper for System.Xml.Serialization.XmlSerializer.
+            </summary>
+        </member>
+        <member name="M:RestSharp.Serializers.DotNetXmlSerializer.#ctor">
+            <summary>
+                Default constructor, does not specify namespace
+            </summary>
+        </member>
+        <member name="M:RestSharp.Serializers.DotNetXmlSerializer.#ctor(System.String)">
+            <inheritdoc />
+            <summary>
+                Specify the namespaced to be used when serializing
+            </summary>
+            <param name="namespace">XML namespace</param>
+        </member>
+        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.Encoding">
+            <summary>
+                Encoding for serialized content
+            </summary>
+        </member>
+        <member name="M:RestSharp.Serializers.DotNetXmlSerializer.Serialize(System.Object)">
+            <summary>
+                Serialize the object as XML
+            </summary>
+            <param name="obj">Object to serialize</param>
+            <returns>XML as string</returns>
+        </member>
+        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.RootElement">
+            <summary>
+                Name of the root element to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.Namespace">
+            <summary>
+                XML namespace to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.DateFormat">
+            <summary>
+                Format string to use when serializing dates
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.DotNetXmlSerializer.ContentType">
+            <summary>
+                Content type for serialized content
+            </summary>
+        </member>
         <member name="T:RestSharp.Serializers.XmlSerializer">
             <summary>
                 Default XML Serializer
@@ -3207,6 +3268,218 @@
                 (can be integer, double, null, etc).
             </summary>
         </member>
+        <member name="T:RestSharp.JsonArray">
+            <summary>
+            Represents the json array.
+            </summary>
+        </member>
+        <member name="M:RestSharp.JsonArray.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestSharp.JsonArray"/> class. 
+            </summary>
+        </member>
+        <member name="M:RestSharp.JsonArray.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestSharp.JsonArray"/> class. 
+            </summary>
+            <param name="capacity">The capacity of the json array.</param>
+        </member>
+        <member name="M:RestSharp.JsonArray.ToString">
+            <summary>
+            The json representation of the array.
+            </summary>
+            <returns>The json representation of the array.</returns>
+        </member>
+        <member name="T:RestSharp.JsonObject">
+            <summary>
+            Represents the json object.
+            </summary>
+        </member>
+        <member name="F:RestSharp.JsonObject._members">
+            <summary>
+            The internal member dictionary.
+            </summary>
+        </member>
+        <member name="M:RestSharp.JsonObject.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:RestSharp.JsonObject"/>.
+            </summary>
+        </member>
+        <member name="M:RestSharp.JsonObject.#ctor(System.Collections.Generic.IEqualityComparer{System.String})">
+            <summary>
+            Initializes a new instance of <see cref="T:RestSharp.JsonObject"/>.
+            </summary>
+            <param name="comparer">The <see cref="T:System.Collections.Generic.IEqualityComparer`1"/> implementation to use when comparing keys, or null to use the default <see cref="T:System.Collections.Generic.EqualityComparer`1"/> for the type of the key.</param>
+        </member>
+        <member name="P:RestSharp.JsonObject.Item(System.Int32)">
+            <summary>
+            Gets the <see cref="T:System.Object"/> at the specified index.
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:RestSharp.JsonObject.Add(System.String,System.Object)">
+            <summary>
+            Adds the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:RestSharp.JsonObject.ContainsKey(System.String)">
+            <summary>
+            Determines whether the specified key contains key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>
+                <c>true</c> if the specified key contains key; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="P:RestSharp.JsonObject.Keys">
+            <summary>
+            Gets the keys.
+            </summary>
+            <value>The keys.</value>
+        </member>
+        <member name="M:RestSharp.JsonObject.Remove(System.String)">
+            <summary>
+            Removes the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.JsonObject.TryGetValue(System.String,System.Object@)">
+            <summary>
+            Tries the get value.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="P:RestSharp.JsonObject.Values">
+            <summary>
+            Gets the values.
+            </summary>
+            <value>The values.</value>
+        </member>
+        <member name="P:RestSharp.JsonObject.Item(System.String)">
+            <summary>
+            Gets or sets the <see cref="T:System.Object"/> with the specified key.
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:RestSharp.JsonObject.Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Adds the specified item.
+            </summary>
+            <param name="item">The item.</param>
+        </member>
+        <member name="M:RestSharp.JsonObject.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="M:RestSharp.JsonObject.Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Determines whether [contains] [the specified item].
+            </summary>
+            <param name="item">The item.</param>
+            <returns>
+            	<c>true</c> if [contains] [the specified item]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:RestSharp.JsonObject.CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)">
+            <summary>
+            Copies to.
+            </summary>
+            <param name="array">The array.</param>
+            <param name="arrayIndex">Index of the array.</param>
+        </member>
+        <member name="P:RestSharp.JsonObject.Count">
+            <summary>
+            Gets the count.
+            </summary>
+            <value>The count.</value>
+        </member>
+        <member name="P:RestSharp.JsonObject.IsReadOnly">
+            <summary>
+            Gets a value indicating whether this instance is read only.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is read only; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:RestSharp.JsonObject.Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
+            <summary>
+            Removes the specified item.
+            </summary>
+            <param name="item">The item.</param>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.JsonObject.GetEnumerator">
+            <summary>
+            Gets the enumerator.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.JsonObject.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate through the collection.
+            </returns>
+        </member>
+        <member name="M:RestSharp.JsonObject.ToString">
+            <summary>
+            Returns a json <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
+            </summary>
+            <returns>
+            A json <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
+            </returns>
+        </member>
+        <member name="T:RestSharp.SimpleJson">
+            <summary>
+            This class encodes and decodes JSON strings.
+            Spec. details, see http://www.json.org/
+            
+            JSON uses Arrays and Objects. These correspond here to the datatypes JsonArray(IList&lt;object>) and JsonObject(IDictionary&lt;string,object>).
+            All numbers are parsed to doubles.
+            </summary>
+        </member>
+        <member name="M:RestSharp.SimpleJson.DeserializeObject(System.String)">
+            <summary>
+            Parses the string json into a value
+            </summary>
+            <param name="json">A JSON string.</param>
+            <returns>An IList&lt;object>, a IDictionary&lt;string,object>, a double, a string, null, true, or false</returns>
+        </member>
+        <member name="M:RestSharp.SimpleJson.TryDeserializeObject(System.String,System.Object@)">
+            <summary>
+            Try parsing the json string into a value.
+            </summary>
+            <param name="json">
+            A JSON string.
+            </param>
+            <param name="obj">
+            The object.
+            </param>
+            <returns>
+            Returns true if successfull otherwise false.
+            </returns>
+        </member>
+        <member name="M:RestSharp.SimpleJson.SerializeObject(System.Object,RestSharp.IJsonSerializerStrategy)">
+            <summary>
+            Converts a IDictionary&lt;string,object> / IList&lt;object> object into a JSON string
+            </summary>
+            <param name="json">A IDictionary&lt;string,object> / IList&lt;object></param>
+            <param name="jsonSerializerStrategy">Serializer strategy to use</param>
+            <returns>A JSON encoded string, or null if object 'json' is not serializable</returns>
+        </member>
+        <member name="M:RestSharp.SimpleJson.IsNumeric(System.Object)">
+            <summary>
+            Determines if a given object is numeric in any way
+            (can be integer, double, null, etc).
+            </summary>
+        </member>
         <member name="T:RestSharp.Validation.Require">
             <summary>
             Helper methods for validating required values
@@ -3238,218 +3511,6 @@
             </summary>
             <param name="value">String to be validated</param>
             <param name="maxSize">Maximum length of the string</param>
-        </member>
-        <member name="T:SimpleJson.JsonArray">
-            <summary>
-            Represents the json array.
-            </summary>
-        </member>
-        <member name="M:SimpleJson.JsonArray.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref="T:SimpleJson.JsonArray"/> class. 
-            </summary>
-        </member>
-        <member name="M:SimpleJson.JsonArray.#ctor(System.Int32)">
-            <summary>
-            Initializes a new instance of the <see cref="T:SimpleJson.JsonArray"/> class. 
-            </summary>
-            <param name="capacity">The capacity of the json array.</param>
-        </member>
-        <member name="M:SimpleJson.JsonArray.ToString">
-            <summary>
-            The json representation of the array.
-            </summary>
-            <returns>The json representation of the array.</returns>
-        </member>
-        <member name="T:SimpleJson.JsonObject">
-            <summary>
-            Represents the json object.
-            </summary>
-        </member>
-        <member name="F:SimpleJson.JsonObject._members">
-            <summary>
-            The internal member dictionary.
-            </summary>
-        </member>
-        <member name="M:SimpleJson.JsonObject.#ctor">
-            <summary>
-            Initializes a new instance of <see cref="T:SimpleJson.JsonObject"/>.
-            </summary>
-        </member>
-        <member name="M:SimpleJson.JsonObject.#ctor(System.Collections.Generic.IEqualityComparer{System.String})">
-            <summary>
-            Initializes a new instance of <see cref="T:SimpleJson.JsonObject"/>.
-            </summary>
-            <param name="comparer">The <see cref="T:System.Collections.Generic.IEqualityComparer`1"/> implementation to use when comparing keys, or null to use the default <see cref="T:System.Collections.Generic.EqualityComparer`1"/> for the type of the key.</param>
-        </member>
-        <member name="P:SimpleJson.JsonObject.Item(System.Int32)">
-            <summary>
-            Gets the <see cref="T:System.Object"/> at the specified index.
-            </summary>
-            <value></value>
-        </member>
-        <member name="M:SimpleJson.JsonObject.Add(System.String,System.Object)">
-            <summary>
-            Adds the specified key.
-            </summary>
-            <param name="key">The key.</param>
-            <param name="value">The value.</param>
-        </member>
-        <member name="M:SimpleJson.JsonObject.ContainsKey(System.String)">
-            <summary>
-            Determines whether the specified key contains key.
-            </summary>
-            <param name="key">The key.</param>
-            <returns>
-                <c>true</c> if the specified key contains key; otherwise, <c>false</c>.
-            </returns>
-        </member>
-        <member name="P:SimpleJson.JsonObject.Keys">
-            <summary>
-            Gets the keys.
-            </summary>
-            <value>The keys.</value>
-        </member>
-        <member name="M:SimpleJson.JsonObject.Remove(System.String)">
-            <summary>
-            Removes the specified key.
-            </summary>
-            <param name="key">The key.</param>
-            <returns></returns>
-        </member>
-        <member name="M:SimpleJson.JsonObject.TryGetValue(System.String,System.Object@)">
-            <summary>
-            Tries the get value.
-            </summary>
-            <param name="key">The key.</param>
-            <param name="value">The value.</param>
-            <returns></returns>
-        </member>
-        <member name="P:SimpleJson.JsonObject.Values">
-            <summary>
-            Gets the values.
-            </summary>
-            <value>The values.</value>
-        </member>
-        <member name="P:SimpleJson.JsonObject.Item(System.String)">
-            <summary>
-            Gets or sets the <see cref="T:System.Object"/> with the specified key.
-            </summary>
-            <value></value>
-        </member>
-        <member name="M:SimpleJson.JsonObject.Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
-            <summary>
-            Adds the specified item.
-            </summary>
-            <param name="item">The item.</param>
-        </member>
-        <member name="M:SimpleJson.JsonObject.Clear">
-            <summary>
-            Clears this instance.
-            </summary>
-        </member>
-        <member name="M:SimpleJson.JsonObject.Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
-            <summary>
-            Determines whether [contains] [the specified item].
-            </summary>
-            <param name="item">The item.</param>
-            <returns>
-            	<c>true</c> if [contains] [the specified item]; otherwise, <c>false</c>.
-            </returns>
-        </member>
-        <member name="M:SimpleJson.JsonObject.CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)">
-            <summary>
-            Copies to.
-            </summary>
-            <param name="array">The array.</param>
-            <param name="arrayIndex">Index of the array.</param>
-        </member>
-        <member name="P:SimpleJson.JsonObject.Count">
-            <summary>
-            Gets the count.
-            </summary>
-            <value>The count.</value>
-        </member>
-        <member name="P:SimpleJson.JsonObject.IsReadOnly">
-            <summary>
-            Gets a value indicating whether this instance is read only.
-            </summary>
-            <value>
-            	<c>true</c> if this instance is read only; otherwise, <c>false</c>.
-            </value>
-        </member>
-        <member name="M:SimpleJson.JsonObject.Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})">
-            <summary>
-            Removes the specified item.
-            </summary>
-            <param name="item">The item.</param>
-            <returns></returns>
-        </member>
-        <member name="M:SimpleJson.JsonObject.GetEnumerator">
-            <summary>
-            Gets the enumerator.
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:SimpleJson.JsonObject.System#Collections#IEnumerable#GetEnumerator">
-            <summary>
-            Returns an enumerator that iterates through a collection.
-            </summary>
-            <returns>
-            An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate through the collection.
-            </returns>
-        </member>
-        <member name="M:SimpleJson.JsonObject.ToString">
-            <summary>
-            Returns a json <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
-            </summary>
-            <returns>
-            A json <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
-            </returns>
-        </member>
-        <member name="T:SimpleJson.SimpleJson">
-            <summary>
-            This class encodes and decodes JSON strings.
-            Spec. details, see http://www.json.org/
-            
-            JSON uses Arrays and Objects. These correspond here to the datatypes JsonArray(IList&lt;object>) and JsonObject(IDictionary&lt;string,object>).
-            All numbers are parsed to doubles.
-            </summary>
-        </member>
-        <member name="M:SimpleJson.SimpleJson.DeserializeObject(System.String)">
-            <summary>
-            Parses the string json into a value
-            </summary>
-            <param name="json">A JSON string.</param>
-            <returns>An IList&lt;object>, a IDictionary&lt;string,object>, a double, a string, null, true, or false</returns>
-        </member>
-        <member name="M:SimpleJson.SimpleJson.TryDeserializeObject(System.String,System.Object@)">
-            <summary>
-            Try parsing the json string into a value.
-            </summary>
-            <param name="json">
-            A JSON string.
-            </param>
-            <param name="obj">
-            The object.
-            </param>
-            <returns>
-            Returns true if successfull otherwise false.
-            </returns>
-        </member>
-        <member name="M:SimpleJson.SimpleJson.SerializeObject(System.Object,SimpleJson.IJsonSerializerStrategy)">
-            <summary>
-            Converts a IDictionary&lt;string,object> / IList&lt;object> object into a JSON string
-            </summary>
-            <param name="json">A IDictionary&lt;string,object> / IList&lt;object></param>
-            <param name="jsonSerializerStrategy">Serializer strategy to use</param>
-            <returns>A JSON encoded string, or null if object 'json' is not serializable</returns>
-        </member>
-        <member name="M:SimpleJson.SimpleJson.IsNumeric(System.Object)">
-            <summary>
-            Determines if a given object is numeric in any way
-            (can be integer, double, null, etc).
-            </summary>
         </member>
     </members>
 </doc>

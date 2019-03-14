@@ -18,7 +18,7 @@ namespace POS.Pedido
     {
         StreamReader streamToPrint;
         Font printFont;
-        string formato;
+        string formatope;
         string len;
         string productos;
         StreamWriter facturawr;
@@ -75,8 +75,7 @@ namespace POS.Pedido
             if (dataGridView1.Rows.Count>0)
             {
                 formatodepedido();
-                imprimir();
-                facturado();
+                imprimirpepe();
                 dataGridView1.DataSource = null;
                 this.Visible = false;
             }
@@ -104,12 +103,18 @@ namespace POS.Pedido
             }
         }
 
+
+
+
         public void formatodepedido()
         {
-           
 
+            decimal impp = 0;
+            decimal coni = 0;
+            decimal sini = 0;
+           
             productos = "";
-            formato = "";
+            formatope = "";
             len = "";
             try
             {
@@ -118,18 +123,38 @@ namespace POS.Pedido
                     mysql.conexion();
                     //mysql.cadenasql = "select * from detallespedidos where NumeroFactura='" + dataGridView1.CurrentRow.Cells[0].Value + "'";
                     mysql.cadenasql = "" +
-                        "SELECT detallespedidos.NumeroFactura, detallespedidos.Cantidad, items.Nombre, detallespedidos.Precio, detallespedidos.Impuesto " +
-                        "FROM items " +
-                        "INNER JOIN detallespedidos ON detallespedidos.NumeroFactura='" + dataGridView1.CurrentRow.Cells[0].Value + "'";
+                        "SELECT detallespedidos.NumeroFactura as num,detallespedidos.Impuesto as impos, detallespedidos.Cantidad as can,items.Codigo,items.Nombre as nom, detallespedidos.Precio as pre, detallespedidos.Impuesto  FROM detallespedidos,items WHERE detallespedidos.NumeroFactura='"+dataGridView1.Rows[0].Cells[0].Value.ToString()+"'  AND detallespedidos.Item=items.Codigo";
                     mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
                     mysql.comando.ExecuteNonQuery();
                     using (MySqlDataReader lee = mysql.comando.ExecuteReader())
                     {
                         while (lee.Read())
                         {
-                            productos += string.Format("{0:N2}",lee["Cantidad"])+ "             "+lee["Nombre"].ToString()+"      "+string.Format("{0:N2}",lee["Precio"])+"           "+lee["Impuesto"]+"\n";
+                            productos += "\n  " + lee["can"].ToString() +
+                      "        ₡" +
+                   string.Format("{0:N2}", double.Parse(lee["pre"].ToString()))
+                   + "\n          " +lee["nom"].ToString();
+
+
+                            if (lee["impos"].ToString() == "(G)")
+                            {
+                                coni += (((decimal.Parse(lee["pre"].ToString()))*(decimal.Parse(lee["pre"].ToString()))) / 0.13m);
+                            }
+                            else
+                            {
+                                sini += (decimal.Parse(lee["pre"].ToString()))*decimal.Parse(lee["can"].ToString());
+                            }
+
+
+
+
                         }
                       
+                    }
+
+                    if (coni>0)
+                    {
+                        impp = ((coni * 13) / 100);
                     }
                     mysql.Dispose();
                 }
@@ -164,16 +189,16 @@ namespace POS.Pedido
                 using (var mysql = new Mysql())
                 {
                     mysql.conexion();
-                    mysql.cadenasql = "select Total,CodigoVendedor,CodigoCajero from pedidos where Numero='" + dataGridView1.CurrentRow.Cells[0].Value + "'";
+                    mysql.cadenasql = "select pedidos.Total as tot,pedidos.CodigoVendedor as cv,pedidos.CodigoCajero as ca,registro.Nombre as re,vendedores.Nombre as nv from pedidos,registro,vendedores where Numero='" + dataGridView1.CurrentRow.Cells[0].Value + "' and pedidos.CodigoCajero=registro.Codigo and pedidos.CodigoVendedor=vendedores.Codigo";
                     mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
                     mysql.comando.ExecuteNonQuery();
                     using (MySqlDataReader lee = mysql.comando.ExecuteReader())
                     {
                         if (lee.Read())
                         {
-                            t = lee["Total"].ToString();
-                            cove = lee["CodigoVendedor"].ToString();
-                            coca = lee["CodigoCajero"].ToString();
+                            t = lee["tot"].ToString();
+                            cove = lee["nv"].ToString();
+                            coca = lee["re"].ToString();
                         }
                         else
                         {
@@ -188,30 +213,35 @@ namespace POS.Pedido
                 }
 
 
-                formato = "Razón social:\nCUBIRAMI SOCIEDAD ANONIMA\nCed.Jurídica:3101125675\nCorreo:lanuevaunion@hotmail.com\nLugar:San José\nTeléfono:2224-7042" +
-                        "\n    Fecha:     " + DateTime.Now.ToString() + "\n" +
-                        "                      No.Factura:\n" + "            00100001040000000" + dataGridView1.CurrentRow.Cells[0].Value +
-                      "                        \nClave:\n" +
-                      "506"+DateTime.Now.ToString("ddMMyy")+"0031026714690010\n00100001040000000" + dataGridView1.CurrentRow.Cells[0].Value + "849892" +
-                      "                \nComprobante: " + dataGridView1.CurrentRow.Cells[0].Value + "\n" +
-                       "                Tipo de documento:\nTiquete Electrónico\n" +
-                        "        Tipo de pago : " +comboBox1.Text+"\n          Facturado por: " +
-                        coca +
-                        "\nCliente: " + n +"\n"+
-                        "        Dirección:\n " + direccion + "\n" +
-                     "\nCantidad        Artículo        Precio        Imp.\n" +
-                    "----------------------------------------------------------\n" + productos +
-                    "\n         (E)=Exento              (G)=Gravado" +
-                 "\n\nTOTAL= " + string.Format("{0:N2}",t)  +
 
-                    "\n\n           ARTICULOS CON I.V.I." +
-                    "\n           VENDEDOR : " + cove +
-                    "\n----Autorizada mediante resolución--------\n---------N° DGT‐R‐48‐2016 del 07---------\n----------de octubre de 2016.---------------\n----------¡Gracias por su compra!--------------\n********Esperamos servirle de nuevo ************";
+                formatope = "Razón social:\nCUBIRAMI SOCIEDAD ANÓNIMA\nCed.Jurídica:3101125675\nCorreo:lanuevaunion@hotmail.com\nLugar:San José\nTeléfono:2224-7042" +
+                  "\n    Fecha:     " + DateTime.Now.ToString() + "\n" +
+
+                  "                Número de Pedido: " + dataGridView1.Rows[0].Cells[0].Value + "\n" +
+                  "        Tipo de pago : " + comboBox1.SelectedItem.ToString() + "\n          Facturado por: " +
+                  coca +
+                  "\n              Cliente:\n" + n + "\n" +
+                  "        Dirección:\n " + direccion + "\n" +
+               "\nCantidad        Precio        \n" + "Artículo\n" +
+              "----------------------------------------------------------" + productos +
+              "\n         (E)=Exento              (G)=Gravado" 
+                + dataGridView1.Rows.Count + "\nSUBTOTAL=                      ₡"+string.Format("{0:N2}",(coni+sini))
+                +  "\nI.V.A.=                               ₡"+string.Format("{0:N2}",impp)
+                     + "\nDESCUENTO=                   ₡"+0
+                
+                                          +
+                                           "\nTOTAL=                             ₡"
+              + string.Format("{0:N2}",decimal.Parse(t)) +
+              "\n------------------------------MONTO-------------" +
+              
+              "\n           ARTICULOS CON I.V.I." +
+              "\n           VENDEDOR : " + cove +
+              "\n----Autorizada mediante resolución--------\n---------N° DGT‐R‐48‐2016 del 07---------\n----------de octubre de 2016.---------------\n----------¡Gracias por su compra!--------------\n********Esperamos servirle de nuevo ************";
 
 
 
                 facturawr = new StreamWriter("pedido.txt");
-                facturawr.WriteLine(formato);
+                facturawr.WriteLine(formatope);
                 facturawr.Flush();
                 facturawr.Close();
 
@@ -227,7 +257,7 @@ namespace POS.Pedido
 
 
 
-        public void imprimir()
+        public void imprimirpepe()
         {
 
             try
@@ -411,32 +441,9 @@ namespace POS.Pedido
             }
 
            
+            
 
-            //string codigo = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            // using (var mysql = new Mysql())
-            // {
-            //     mysql.conexion();
-
-            //     string query =
-            //         "SELECT * " +
-            //         "FROM detallespedidos " +
-            //         "WHERE NumeroFactura='" + codigo + "'";
-            //     mysql.comando = new MySqlCommand(query, mysql.con);
-            //     mysql.comando.ExecuteNonQuery();
-            //     using (MySqlDataReader lector = mysql.comando.ExecuteReader())  
-            //     {
-            //         while(lector.Read())
-            //         {
-            //             m_frm.textBox1.Text = lector["Item"].ToString()+ "0"+lector["Cantidad"].ToString().Replace(".","");
-            //             m_frm.Activate();
-            //             m_frm.textBox1.Focus();
-            //             SendKeys.Send("{ENTER}");
-            //         }
-            //     }
-            //         mysql.Dispose();
-            // }
-
-        } // end of method
+        } 
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

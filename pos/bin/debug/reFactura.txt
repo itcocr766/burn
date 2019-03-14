@@ -4,40 +4,37 @@ Ced.Jurídica:3101125675
 Correo:lanuevaunion@hotmail.com
 Lugar:San José
 Teléfono:2224-7042
-    Fecha:     10/31/2018 10:29:58 AM
+    Fecha:     25/02/2019 16:57:31
                       No.Factura:
-             00100001010000001043
+             00100001010000002051
                         Clave:
-5063110180031011256750010
-0001010000001043131288066
-                Comprobante: 114
+5062502190031026714690010
+0001010000002051190090248
+                Comprobante: 9103
                 Tipo de documento:
 Factura Electrónica
         Tipo de pago : Efectivo
-          Facturado por: Caja4
+          Facturado por: admin
               Cliente:
-JMC Y CPK SOCIEDAD ANONIMA
+SANCHEZ LUIS
         Dirección:
  Contado
 
 Cantidad        Precio        
 Artículo
 ---------------------------------------------------------- 
- 
-3.00000000         3800.00000000 
-Molida Especial 
-5.06000000         2680.00000000 
-Alas Oferta 
+12,00000000         4980,00000000 
+Bolita Plana 
 
-  5.06        ₡2,680.00
-          Alas Oferta
+  12,00        ₡4.980,00
+          Bolita Plana
          (E)=Exento              (G)=Gravado
-SUBTOTAL=                      ₡6,480.00
-I.V.A.=                               ₡0.00
+SUBTOTAL=                      ₡4.980,00
+I.V.A.=                               ₡0,00
 DESCUENTO=                   ₡0
-TOTAL=                             ₡24,960.80
+TOTAL=                             ₡59.760,00
            ARTICULOS CON I.V.I.
-           VENDEDOR : VENDEDOR1
+           VENDEDOR : RAMON GARCIA
 ----Autorizada mediante resolución--------
 ---------N° DGT‐R‐48‐2016 del 07---------
 ----------de octubre de 2016.---------------

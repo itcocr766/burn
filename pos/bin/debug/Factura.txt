@@ -4,38 +4,38 @@ Ced.Jurídica:3101125675
 Correo:lanuevaunion@hotmail.com
 Lugar:San José
 Teléfono:2224-7042
-    Fecha:     12/10/2018 2:46:13 PM
+    Fecha:     04/03/2019 8:52:55
                       No.Factura:
-             00100001040000000934
+             00100001010000002059
                         Clave:
-5061012180031026714690010
-0001040000000934166376443
-                Comprobante: 930
+5060403190031026714690010
+0001010000002059106462720
+                Comprobante: 7780
                 Tipo de documento:
-Tiquete Electrónico
+Factura Electrónica
         Tipo de pago : Efectivo
           Facturado por: admin
               Cliente:
-Contado
+Andrick Cubero
         Dirección:
- Contado
+ n/a
 
 Cantidad        Precio        
 Artículo
 ----------------------------------------------------------
-  2.19000000        ₡10,906.20
-          Mano de Piedra
+  1,000        ₡4.980,00
+          Bolita Plana
          (E)=Exento              (G)=Gravado
 ARTICULOS=                      1
-SUBTOTAL=                      ₡10,906.20
-I.V.A.=                               ₡0.00
-DESCUENTO=                   ₡0.000
-TOTAL=                             ₡10,906.20
+SUBTOTAL=                      ₡4.407,08
+I.V.A.=                               ₡572,92
+DESCUENTO=                   ₡0,000
+TOTAL=                             ₡4.980,00
 ------------------------------MONTO-------------
-PAGA CON:                        ₡554,646,757
-VUELTO=                           ₡-554,635,850.800
+PAGA CON:                        ₡5.000
+VUELTO=                           ₡-20,000
            ARTICULOS CON I.V.I.
-           VENDEDOR : VENDEDOR1
+           VENDEDOR : RAMON GARCIA
 ----Autorizada mediante resolución--------
 ---------N° DGT‐R‐48‐2016 del 07---------
 ----------de octubre de 2016.---------------

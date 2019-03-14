@@ -24,9 +24,9 @@ namespace POS.Anular
             try
             {
                 if (cnbd.consultar2(textBox1, textBox2))
-                {
+                { Form1 f = new Form1();
                     this.Visible = false;
-                    AnulaFactura ad = new AnulaFactura();
+                    AnulaFactura ad = new AnulaFactura(f);
                     ad.Show(this);
                 }
                 else

@@ -203,9 +203,9 @@
             this.label25.ForeColor = System.Drawing.Color.White;
             this.label25.Location = new System.Drawing.Point(4, 83);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(114, 19);
+            this.label25.Size = new System.Drawing.Size(105, 19);
             this.label25.TabIndex = 29;
-            this.label25.Text = "Cargar pediodo";
+            this.label25.Text = "Cargar pedido";
             // 
             // button7
             // 

@@ -2,12 +2,12 @@ Cubirami                    La Unión
 
 CAJA                       ADMINISTRADOR
 Número Cierre        0
-FECHA CIERRE        9/28/2018
+FECHA CIERRE        27/02/2019
 ---------------------------------------------------------
 
-TOTAL BRUTO GRAVADO= 307,655.04
-TOTAL EXCENTO= 349,174.84
-TOTAL IMPUESTO= 35,393.96
+TOTAL BRUTO GRAVADO= 25.072.768,70
+TOTAL EXCENTO= 336.607.199,73
+TOTAL IMPUESTO= 2.884.477,97
 FONDO CAJA            0
 ---------------------------------------------------------
 
@@ -21,4 +21,4 @@ FIRMA CAJERO           FIRMA ADMIN
 
 ________________       _________________
 
-Impreso el 9/28/2018 12:26:44 PM
+Impreso el 27/02/2019 9:33:53

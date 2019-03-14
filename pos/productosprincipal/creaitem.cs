@@ -42,6 +42,7 @@ namespace POS.productosprincipal
 
         public void insertar()
         {
+            string imp = "";
             try
             {
                 if (!string.IsNullOrEmpty(textBox1.Text)&& !string.IsNullOrEmpty(textBox2.Text)&& 
@@ -52,12 +53,21 @@ namespace POS.productosprincipal
                 {
                     using (var mysql = new Mysql())
                     {
+                        if (comboBox1.Text=="Con Impuesto")
+                        {
+                            imp = "Impuesto";
+                        }
+                        else
+                        {
+                            imp = "Non";
+                        }
+
                         mysql.conexion();
                         mysql.cadenasql =
                             "insert into items(Codigo,Familia,Nombre,Precio,UnidadMedida,Impuesto,Cantidad)values('"
                             + textBox2.Text.Trim() + "','" + textBox1.Text.Trim() + "','" +
                             richTextBox1.Text.ToUpper().Trim() + "','" + decimal.Parse(textBox7.Text.Trim()) + "','"
-                            + textBox3.Text + "','" + comboBox1.Text.Trim() + "','"+decimal.Parse(numericUpDown1.Value.ToString())+"')";
+                            + textBox3.Text + "','" + imp + "','"+decimal.Parse(numericUpDown1.Value.ToString())+"')";
                         mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
                         mysql.comando.ExecuteNonQuery();
                         mysql.Dispose();

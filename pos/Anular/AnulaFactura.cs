@@ -19,6 +19,7 @@ namespace POS.Anular
 {
     public partial class AnulaFactura : Form
     {
+        logs log = new logs();
         static Respuesta respuesta;
         List<DETAIL> detalles;
         string eltipo;
@@ -38,19 +39,20 @@ namespace POS.Anular
         decimal impuestototal;
         string json;
         ENVIO enviarfactura;
-
+        Form1 formuno;
         decimal price;
         decimal canti;
-        public AnulaFactura()
+        public AnulaFactura(Form1 f1)
         {
             InitializeComponent(); detalles = new List<DETAIL>();
             enviarfactura = new ENVIO();
+            formuno = f1;
         }
 
         private void AnulaFactura_Load(object sender, EventArgs e)
         {
             cargarfacs();
-            cargarfacs2();
+           
         }
 
         public void cargarfacs()
@@ -78,143 +80,122 @@ namespace POS.Anular
             }
         }
 
-        public void cargarfacs2()
-        {
+        
 
-            try
-            {
-                using (var mysql = new Mysql())
-                {
-                    mysql.conexion();
-                    DataTable dtDatos = new DataTable();
-                    mysql.cadenasql = "select * from sales";
-                    MySqlDataAdapter mdaDatos = new MySqlDataAdapter(mysql.cadenasql, mysql.con);
-                    mdaDatos.Fill(dtDatos);
-                    dataGridView2.DataSource = dtDatos;
-                    mysql.Dispose();
-
-                }
-
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show("Hubo un error a conectar a la base de datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
             int conta = 0;
             price = 0;
             canti=0;
             try
             {
-                using (var mysql = new Mysql())
+                if (dataGridView1.Rows.Count>0&&!string.IsNullOrEmpty(richTextBox1.Text))
                 {
-                    mysql.conexion();
-
-                    mysql.cadenasql = "update factura set Total='0' where Numero='" + dataGridView1.CurrentRow.Cells[0].Value + "'";
-                    mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
-                    mysql.comando.ExecuteNonQuery();
-
-                    mysql.Dispose();
-
-
-                }
-
-
-                DialogResult result = MessageBox.Show("Desea crear una nota de crédito para esta factura?", "Error",
-                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                if (result == DialogResult.Yes)
-                {
-
-
-
-
-                    FE f = new FE()
+                    using (var mysql = new Mysql())
                     {
-                        CompanyAPI = ConfigurationManager.AppSettings["companiapi"]
-                   
+                        mysql.conexion();
 
-                };
+                        mysql.cadenasql = "update factura set Total='0' where Numero='" + dataGridView1.CurrentRow.Cells[0].Value + "'";
+                        mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
+                        mysql.comando.ExecuteNonQuery();
+
+                        mysql.Dispose();
 
 
+                    }
 
-                    f.Key = new KEY()
+
+                    DialogResult result = MessageBox.Show("Desea crear una nota de crédito para esta factura?", "Error",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (result == DialogResult.Yes)
                     {
-                        Branch = ConfigurationManager.AppSettings["sucursal"],
-                        Terminal = "001",
-                        Type = "03",
-                        Voucher = string.Concat("14", (Int64.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString())).ToString()),
-                        Country = "506",
-                        Situation = "1"
-
-                    };
-
-                    f.Header = new HEADER()
-                    {
-                        Date = DateTime.Now.Date,
-                        TermOfSale = "01",
-                        CreditTerm = 0,
-                        PaymentMethod = "01"
-                    };
-
-                    //hacer consultas de receiver
 
 
-                    if (dataGridView1.CurrentRow.Cells[2].Value.ToString() == "0")
-                    {
-                        f.Receiver = new RECEIVER()
+
+
+                        FE f = new FE()
                         {
-                            Name = "Contado",
-                            Identification = new IDENTIFICATION
-                            {
-                                Type = "01",
-                                Number = "000000000"
+                            CompanyAPI = ConfigurationManager.AppSettings["companiapi"]
 
-                            },
-                            Email = "Contado@correo.com"
 
                         };
 
-                        eltipo = "04";
 
-                    }
-                    else
-                    {
-                        using (var mysql = new Mysql())
+
+                        f.Key = new KEY()
                         {
-                            mysql.conexion();
+                            Branch = ConfigurationManager.AppSettings["sucursal"],
+                            Terminal = "001",
+                            Type = "03",
+                            Voucher = string.Concat("14", (Int64.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString())).ToString()),
+                            Country = "506",
+                            Situation = "1"
 
-                            mysql.cadenasql = "select Cedula,Nombre,Correo from clientes where Cedula='" + dataGridView1.CurrentRow.Cells[2].Value.ToString() + "'";
-                            mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
-                            mysql.comando.ExecuteNonQuery();
-                            mysql.lector = mysql.comando.ExecuteReader();
-                            while (mysql.lector.Read())
+                        };
+
+                        f.Header = new HEADER()
+                        {
+                            Date = DateTime.Now.Date,
+                            TermOfSale = "01",
+                            CreditTerm = 0,
+                            PaymentMethod = "01"
+                        };
+
+                        //hacer consultas de receiver
+
+
+                        if (dataGridView1.CurrentRow.Cells[2].Value.ToString() == "0")
+                        {
+                            f.Receiver = new RECEIVER()
                             {
-                                f.Receiver = new RECEIVER()
+                                Name = "Contado",
+                                Identification = new IDENTIFICATION
                                 {
-                                    Name = mysql.lector["Nombre"].ToString(),
-                                    Identification = new IDENTIFICATION
+                                    Type = "01",
+                                    Number = "000000000"
+
+                                },
+                                Email = "Contado@correo.com"
+
+                            };
+
+                            eltipo = "04";
+
+                        }
+                        else
+                        {
+                            using (var mysql = new Mysql())
+                            {
+                                mysql.conexion();
+
+                                mysql.cadenasql = "select Cedula,Nombre,Correo from clientes where Cedula='" + dataGridView1.CurrentRow.Cells[2].Value.ToString() + "'";
+                                mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
+                                mysql.comando.ExecuteNonQuery();
+                                mysql.lector = mysql.comando.ExecuteReader();
+                                while (mysql.lector.Read())
+                                {
+                                    f.Receiver = new RECEIVER()
                                     {
-                                        Type = "01",
-                                        Number = dataGridView1.CurrentRow.Cells[2].Value.ToString()
+                                        Name = mysql.lector["Nombre"].ToString(),
+                                        Identification = new IDENTIFICATION
+                                        {
+                                            Type = "01",
+                                            Number = dataGridView1.CurrentRow.Cells[2].Value.ToString()
 
-                                    },
-                                    Email = mysql.lector["Correo"].ToString()
+                                        },
+                                        Email = mysql.lector["Correo"].ToString()
 
-                                };
+                                    };
 
+                                }
+                                eltipo = "01";
+                                mysql.Dispose();
                             }
-                            eltipo = "01";
-                            mysql.Dispose();
+
                         }
 
-                    }
-                 
-                   
+
 
 
                         detalles.Clear();
@@ -232,33 +213,33 @@ namespace POS.Anular
                             while (mysql.lector.Read())
                             {
 
-                            if (mysql.lector["Impuesto"].ToString() == "(G)")
-                            {
+                                if (mysql.lector["Impuesto"].ToString() == "(G)")
+                                {
 
-                                price = decimal.Parse(mysql.lector["Precio"].ToString());
-                                canti = decimal.Parse(mysql.lector["Cantidad"].ToString());
-                                unitprice = Math.Round((price / 1.13m), 2);
-                                impuestofe = Math.Round(((price * canti) - (unitprice * canti)), 2);
-                                totaltaxedgoodsfe += Math.Round(((unitprice * canti)), 2);
-                                totalsalesfe += Math.Round(((totaltaxedgoodsfe + totalexcemptgoodsfe)), 2);
-                                totalnetsalesfe += Math.Round(((totalsalesfe - discountfe)), 2);
-                                totaltaxedfe += Math.Round(((unitprice * canti)), 2);
-                                impuestototal += Math.Round(impuestofe, 2); 
+                                    price = decimal.Parse(mysql.lector["Precio"].ToString());
+                                    canti = decimal.Parse(mysql.lector["Cantidad"].ToString());
+                                    unitprice = Math.Round((price / 1.13m), 2);
+                                    impuestofe = Math.Round(((price * canti) - (unitprice * canti)), 2);
+                                    totaltaxedgoodsfe += Math.Round(((unitprice * canti)), 2);
+                                    totalsalesfe += Math.Round(((totaltaxedgoodsfe + totalexcemptgoodsfe)), 2);
+                                    totalnetsalesfe += Math.Round(((totalsalesfe - discountfe)), 2);
+                                    totaltaxedfe += Math.Round(((unitprice * canti)), 2);
+                                    impuestototal += Math.Round(impuestofe, 2);
 
 
                                     losimpuestos = new TAX()
                                     {
                                         Code = "01",
                                         Rate = 13.0m,
-                                        Amount = Math.Round(impuestofe,2),
+                                        Amount = Math.Round(impuestofe, 2),
                                         Exoneration = null
                                     };
 
                                     totalamountfe = Math.Round(((unitprice * canti)), 2);
-                                discountfe = 0;
+                                    discountfe = 0;
                                     subtotalfe = Math.Round(((totalamountfe - discountfe)), 2);
-                                totallineamountfe = Math.Round((subtotalfe + impuestofe), 2);
-                                DETAIL detail = new DETAIL()
+                                    totallineamountfe = Math.Round((subtotalfe + impuestofe), 2);
+                                    DETAIL detail = new DETAIL()
                                     {
                                         Number = conta += 1,
                                         Code = new CODE
@@ -291,20 +272,20 @@ namespace POS.Anular
                                     impuestofe = 0;
 
                                     unitprice = decimal.Parse(mysql.lector["Precio"].ToString());
-                                canti = decimal.Parse(mysql.lector["Cantidad"].ToString());
-                                totaltaxedgoodsfe += 0;
-                                totalexcemptgoodsfe += Math.Round(((unitprice * canti)), 2);
-                                totalexcemptfe += Math.Round(((unitprice * canti)), 2);
-                                totalsalesfe += Math.Round(((totaltaxedgoodsfe + totalexcemptgoodsfe)), 2);
-                                totalnetsalesfe += Math.Round(((totalsalesfe - discountfe)), 2);
-                                totaltaxedfe += 0;
+                                    canti = decimal.Parse(mysql.lector["Cantidad"].ToString());
+                                    totaltaxedgoodsfe += 0;
+                                    totalexcemptgoodsfe += Math.Round(((unitprice * canti)), 2);
+                                    totalexcemptfe += Math.Round(((unitprice * canti)), 2);
+                                    totalsalesfe += Math.Round(((totaltaxedgoodsfe + totalexcemptgoodsfe)), 2);
+                                    totalnetsalesfe += Math.Round(((totalsalesfe - discountfe)), 2);
+                                    totaltaxedfe += 0;
                                     totalamountfe = Math.Round(((unitprice * canti)), 2);
-                                discountfe = 0;
-                                  
-                                
-                                subtotalfe = Math.Round(((totalamountfe - discountfe)), 2);
-                                totallineamountfe = Math.Round((subtotalfe + impuestofe), 2);
-                                DETAIL detail = new DETAIL()
+                                    discountfe = 0;
+
+
+                                    subtotalfe = Math.Round(((totalamountfe - discountfe)), 2);
+                                    totallineamountfe = Math.Round((subtotalfe + impuestofe), 2);
+                                    DETAIL detail = new DETAIL()
                                     {
                                         Number = conta += 1,
                                         Code = new CODE
@@ -322,7 +303,7 @@ namespace POS.Anular
                                         TotalAmount = totalamountfe,
                                         Discount = discountfe,
                                         NatureOfDiscount = "",
-                                        SubTotal =subtotalfe,
+                                        SubTotal = subtotalfe,
                                         TotalLineAmount = totallineamountfe
 
                                     };
@@ -337,75 +318,82 @@ namespace POS.Anular
 
 
 
-                    using (var mysql=new Mysql())
-                    {
-                        mysql.conexion();
-                        mysql.cadenasql="select Consecutivo from hacienda where Comprobante='"+ dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
-                        mysql.comando = new MySqlCommand(mysql.cadenasql,mysql.con);
-                        mysql.comando.ExecuteNonQuery();
-                        mysql.lector = mysql.comando.ExecuteReader();
-
-                        while (mysql.lector.Read())
+                        using (var mysql = new Mysql())
                         {
+                            mysql.conexion();
+                            mysql.cadenasql = "select Consecutivo from hacienda where Comprobante='" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+                            mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
+                            mysql.comando.ExecuteNonQuery();
+                            mysql.lector = mysql.comando.ExecuteReader();
 
-                            REFERENCE refe = new REFERENCE()
+                            while (mysql.lector.Read())
                             {
-                                DocumentType = eltipo,
-                                DocumentNumber = mysql.lector["Consecutivo"].ToString(),
-                                Code = "01",
-                                Reason = "El cliente quizo cambiar o devolver algunos productos"
-                            };
+
+                                REFERENCE refe = new REFERENCE()
+                                {
+                                    DocumentType = eltipo,
+                                    DocumentNumber = mysql.lector["Consecutivo"].ToString(),
+                                    Code = "01",
+                                    Reason = richTextBox1.Text
+                                };
 
 
-                            f.Reference = new List<REFERENCE>()
+                                f.Reference = new List<REFERENCE>()
                             {
                                 refe
                             };
 
+                            }
+                            mysql.Dispose();
                         }
-                        mysql.Dispose();
-                    }
 
 
-                    
 
 
-                    f.Summary = new SUMMARY()
-                    {
-                        Currency = "CRC",
-                        ExchangeRate = 1,
-                        TotalTaxedService = 0,
-                        TotalExemptService = 0,
-                        TotalTaxedGoods = Math.Round(totaltaxedgoodsfe,2) ,
-                        TotalExemptGoods = Math.Round(totalexcemptgoodsfe, 2),
-                        TotalTaxed = Math.Round(totaltaxedfe, 2),
-                        TotalExempt = Math.Round(totalexcemptfe, 2),
-                        TotalSale = Math.Round((totaltaxedgoodsfe + totalexcemptgoodsfe),2),
-                        TotalDiscounts = 0,
-                        TotalNetSale = Math.Round((totaltaxedgoodsfe + totalexcemptgoodsfe),2),
-                        TotalTaxes = Math.Round(impuestototal, 2),
-                        TotalVoucher = Math.Round((totaltaxedgoodsfe + totalexcemptgoodsfe + impuestototal), 2)
-                    };
+
+                        f.Summary = new SUMMARY()
+                        {
+                            Currency = "CRC",
+                            ExchangeRate = 1,
+                            TotalTaxedService = 0,
+                            TotalExemptService = 0,
+                            TotalTaxedGoods = Math.Round(totaltaxedgoodsfe, 2),
+                            TotalExemptGoods = Math.Round(totalexcemptgoodsfe, 2),
+                            TotalTaxed = Math.Round(totaltaxedfe, 2),
+                            TotalExempt = Math.Round(totalexcemptfe, 2),
+                            TotalSale = Math.Round((totaltaxedgoodsfe + totalexcemptgoodsfe), 2),
+                            TotalDiscounts = 0,
+                            TotalNetSale = Math.Round((totaltaxedgoodsfe + totalexcemptgoodsfe), 2),
+                            TotalTaxes = Math.Round(impuestototal, 2),
+                            TotalVoucher = Math.Round((totaltaxedgoodsfe + totalexcemptgoodsfe + impuestototal), 2)
+                        };
 
                         json = JsonConvert.SerializeObject(f, Newtonsoft.Json.Formatting.Indented);
 
-                        
-
-
-                        string strJSON = string.Empty;
-                    SendInvoicesAGC(f);
                        
 
 
-                }
-               
+                        string strJSON = string.Empty;
+                        SendInvoicesAGC(f);
+                        await log.guardarlog("Se realizo una anulacion:  por el usuario: " + formuno.facturando.Text, "" + DateTime.Now.ToString("yyyy-MM-dd") + "", "" + DateTime.Now.ToString("HH:mm:ss tt") + "", "Transaccion", dataGridView1.CurrentRow.Cells["Total"].Value.ToString());
+
+
+                    }
+
 
 
                     cargarfacs(); MessageBox.Show("La factura ha sido anulada", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Asegurese de seleccionar una factura y escribir el motivo de anulación correspondiente","No hay suficientes datos",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                }
                 
+                
+
             }
 
-
+            
 
             catch (Exception es)
             {
@@ -435,7 +423,7 @@ namespace POS.Anular
             httpWebRequest.ContentType = "application/json";
 
             httpWebRequest.Method = "POST";
-
+            httpWebRequest.Timeout = 5000;
 
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
@@ -523,26 +511,7 @@ namespace POS.Anular
 
         private void button2_Click(object sender, EventArgs e)
         {
-            try
-            {
-                using (var mysql = new Mysql())
-                {
-                    mysql.conexion();
-
-                    mysql.cadenasql = "update sales set Total='0' where Numero='" + dataGridView2.CurrentRow.Cells[0].Value + "'";
-                    mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
-                    mysql.comando.ExecuteNonQuery();
-
-                    mysql.Dispose();
-
-
-                }
-                cargarfacs2(); MessageBox.Show("La factura ha sido anulada", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception es)
-            {
-                MessageBox.Show("Hubo un error a conectar a la base de datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+          
         }
 
         private void textBox1_KeyUp(object sender, KeyEventArgs e)
@@ -574,29 +543,7 @@ namespace POS.Anular
 
         private void textBox2_KeyUp(object sender, KeyEventArgs e)
         {
-            try
-            {
-                using (var mysql = new Mysql())
-                {
-                    mysql.conexion();
-                    DataTable dtDatos = new DataTable();
-                    string query = "select * from sales where Numero like '" + textBox2.Text + "%'";
-                    MySqlDataAdapter mdaDatos = new MySqlDataAdapter(query, mysql.con);
-                    mdaDatos.Fill(dtDatos);
-                    dataGridView2.DataSource = dtDatos;
-                    mysql.Dispose();
-
-                }
-
-
-            }
-            catch (Exception euju)
-            {
-
-                Mensaje.Error(euju, "71");
-
-
-            }
+            
         }
     }
 }

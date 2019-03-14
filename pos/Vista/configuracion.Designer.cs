@@ -41,13 +41,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -183,15 +183,51 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Conf FED";
             // 
-            // button2
+            // textBox6
             // 
-            this.button2.Location = new System.Drawing.Point(48, 284);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 38);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Aplicar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.textBox6.Location = new System.Drawing.Point(48, 92);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(87, 20);
+            this.textBox6.TabIndex = 16;
+            this.textBox6.Text = "001";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(45, 127);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(49, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Endpoint";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(45, 75);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(48, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Sucursal";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(45, 24);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "CompaniApi";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "http://192.168.0.254:8080/api/invoice/",
+            "http://104.43.136.13:8080/api/invoice/"});
+            this.comboBox3.Location = new System.Drawing.Point(48, 143);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(200, 21);
+            this.comboBox3.TabIndex = 12;
             // 
             // comboBox1
             // 
@@ -204,51 +240,15 @@
             this.comboBox1.Size = new System.Drawing.Size(200, 21);
             this.comboBox1.TabIndex = 10;
             // 
-            // comboBox3
+            // button2
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "http://192.168.0.254:8080/api/invoice/",
-            "http://104.43.243.208:8080/api/invoice/"});
-            this.comboBox3.Location = new System.Drawing.Point(48, 143);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(200, 21);
-            this.comboBox3.TabIndex = 12;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(45, 24);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 13);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "CompaniApi";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(45, 75);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 13);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Sucursal";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(45, 127);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 13);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "Endpoint";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(48, 92);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(87, 20);
-            this.textBox6.TabIndex = 16;
-            this.textBox6.Text = "001";
+            this.button2.Location = new System.Drawing.Point(48, 284);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(164, 38);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Aplicar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // configuracion
             // 

@@ -39,6 +39,7 @@ namespace POS
 {
     public partial class Form1 : Form
     {
+        logs log = new logs();
         public string elvuelto;
         string documentoelectronico;
         static Respuesta respuesta;
@@ -88,7 +89,7 @@ namespace POS
         decimal impuestototal;
         decimal cantited;
         decimal united;
-      
+        logs logos = new logs();
      
         
        
@@ -210,7 +211,7 @@ namespace POS
 
         #endregion
         #region meterfactura
-        public void meterFactura()
+        public async  void meterFactura()
         {
 
             string type = "";
@@ -582,7 +583,7 @@ namespace POS
 
                     string strJSON = string.Empty;
 
-        
+                    await log.guardarlog("Se realizo una factura:  por el usuario: " + facturando.Text, "" + DateTime.Now.ToString("yyyy-MM-dd") + "", "" + DateTime.Now.ToString("HH:mm:ss tt") + "", "Transaccion", textBox5.Text);
                     SendInvoicesAGC(f);
 
                     if (!string.IsNullOrEmpty(respuesta.codificacion.clave))
@@ -617,7 +618,7 @@ namespace POS
 
                 }
 
-
+               //await log.guardarlog("Se realizo una factura:  por el usuario: " + facturando.Text, "" + DateTime.Now.ToString("yyyy-MM-dd") + "", "" + DateTime.Now.ToString("HH:mm:ss tt") + "", "Transaccion", textBox5.Text);
 
             }
             catch (Exception ftr)
@@ -657,7 +658,7 @@ namespace POS
             httpWebRequest.ContentType = "application/json";
 
             httpWebRequest.Method = "POST";
-
+            httpWebRequest.Timeout = 5000;
 
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
@@ -1466,7 +1467,41 @@ namespace POS
             }
         }
 
-       
+
+        public void imprimir2()
+        {
+
+            try
+            {
+
+
+
+                streamToPrint = new StreamReader
+                    ("pedi.txt");
+
+
+                try
+                {
+                    printFont = new Font("Segoe UI", 10);
+                    PrintDocument pd = new PrintDocument();
+                    pd.PrintPage += new PrintPageEventHandler
+                       (this.printDocument1_PrintPage);
+                    pd.Print();
+                }
+                finally
+                {
+                    streamToPrint.Close();
+                }
+            }
+            catch (Exception err_004)
+            {
+                Mensaje.Error(err_004, "955");
+
+
+            }
+        }
+
+
 
         private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
@@ -1694,6 +1729,11 @@ namespace POS
 
 
 
+
+
+
+
+
         #endregion
         #region consifguracion de mensajes
         public void Mensaje_Warning(string m)
@@ -1780,7 +1820,117 @@ namespace POS
 
         }
         #endregion
-      
+
+
+
+
+        public void formatodeacturapedido(string ped)
+        {
+            
+            productos = "";
+            formato = "";
+            len = "";
+            try
+            {
+
+
+
+
+
+
+                for (int da = 0; da < dataGridView1.Rows.Count; da++)
+                {
+                    len = dataGridView1.Rows[da].Cells[2].Value.ToString().Trim();
+
+
+                    productos += "\n  " + dataGridView1.Rows[da].Cells[1].Value.ToString() +
+                      "        ₡" +
+                   string.Format("{0:N2}", double.Parse(dataGridView1.Rows[da].Cells[7].Value.ToString()))
+                   + "\n          " + dataGridView1.Rows[da].Cells[2].Value.ToString();
+
+
+                  
+
+                }
+
+                string direccion = "";
+                using (var mysql = new Mysql())
+                {
+                    mysql.conexion();
+                    mysql.cadenasql = "select Direccion from clientes where Cedula='" + comboBox3.Text + "'";
+                    mysql.comando = new MySqlCommand(mysql.cadenasql, mysql.con);
+                    mysql.comando.ExecuteNonQuery();
+                    using (MySqlDataReader lee = mysql.comando.ExecuteReader())
+                    {
+                        if (lee.Read())
+                        {
+                            direccion = lee["Direccion"].ToString();
+                        }
+                        else
+                        {
+                            direccion = "Guadalupe";
+                        }
+
+                    }
+                    mysql.Dispose();
+                }
+
+               
+
+
+
+                formato = "Razón social:\nCUBIRAMI SOCIEDAD ANÓNIMA\nCed.Jurídica:3101125675\nCorreo:lanuevaunion@hotmail.com\nLugar:San José\nTeléfono:2224-7042" +
+                  "\n    Fecha:     " + DateTime.Now.ToString() + "\n" +
+                 
+                  "                Número de Pedido: " + ped + "\n" +
+                  "        Tipo de pago : " + comboBox1.SelectedItem.ToString() + "\n          Facturado por: " +
+                  facturando.Text +
+                  "\n              Cliente:\n" + textBox17.Text.Trim() + "\n" +
+                  "        Dirección:\n " + direccion + "\n" +
+               "\nCantidad        Precio        \n" + "Artículo\n" +
+              "----------------------------------------------------------" + productos +
+              "\n         (E)=Exento              (G)=Gravado" +
+                                             "\nARTICULOS=                      "
+                + dataGridView1.Rows.Count + "\nSUBTOTAL=                      ₡"
+                + textBox3.Text.Trim() + "\nI.V.A.=                               ₡"
+                    + textBox6.Text.Trim() + "\nDESCUENTO=                   ₡"
+                + string.Format("{0:N3}", descuentos)
+                                           + "\nTOTAL=                             ₡"
+              + textBox5.Text.Trim() +
+              "\n------------------------------MONTO-------------" +
+              "\nPAGA CON:                        ₡"
+              + string.Format("{0:n0}", double.Parse(textBox14.Text.Trim())) +
+              "\nVUELTO=                           ₡"
+              + textBox15.Text.Trim() +
+              "\n           ARTICULOS CON I.V.I." +
+              "\n           VENDEDOR : " + textBox16.Text.Trim() +
+              "\n----Autorizada mediante resolución--------\n---------N° DGT‐R‐48‐2016 del 07---------\n----------de octubre de 2016.---------------\n----------¡Gracias por su compra!--------------\n********Esperamos servirle de nuevo ************";
+
+
+                facturawr = new StreamWriter("pedi.txt");
+                facturawr.WriteLine(formato, FileAccess.ReadWrite);
+                facturawr.Flush();
+                facturawr.Close();
+
+
+
+
+
+
+            }
+            catch (Exception err_0016)
+            {
+                Mensaje.Error(err_0016, "1189");
+
+
+            }
+
+        }
+
+
+
+
+
         public void eventos(KeyEventArgs er)
         {
             cadena1 = "";
@@ -3027,10 +3177,11 @@ namespace POS
 
         }
 
-        private void button4_Click_4(object sender, EventArgs e)
+        private  void button4_Click_4(object sender, EventArgs e)
         {
             contr ctr = new contr();
             ctr.Show(this);
+           //await logos.guardarlog("se presiono el boton anular ",DateTime.Now.ToString("yyyy-MM-dd") + "", "" + DateTime.Now.ToString("HH:mm:ss tt") + "", "Evento","monto");
         }
 
         private void panelHaciendaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -3051,6 +3202,13 @@ namespace POS
                 if (!string.IsNullOrEmpty(comboBox3.Text) && dataGridView1.Rows.Count>0&& !string.IsNullOrEmpty(comboBox2.Text))
                 {
                     meterpedido();
+                   
+                    for (int imp = 0; imp < Int32.Parse(numericUpDown1.Value.ToString()); imp++)
+                    {
+                        imprimir2();
+
+                    }
+                    limpiar();
                 }
                 else
                 {
@@ -3160,18 +3318,23 @@ namespace POS
 
                         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+                       
+
+                        
+
 
                     }
-                    mysql.rol();
+
+                        mysql.rol();
                     mysql.Dispose();
 
-                    
+                    formatodeacturapedido(numeroRecibido);
                     textBox1.Visible = true;
                     MessageBox.Show("El pedido///"+numeroRecibido+"///se guardó con éxito","Solicitud procesada",MessageBoxButtons.OK,MessageBoxIcon.Information);
                     limpiar();
                 }
 
-
+                log.guardarlog("Se realizo un pedido:  por el usuario: " + facturando.Text, "" + DateTime.Now.ToString("yyyy-MM-dd") + "", "" + DateTime.Now.ToString("HH:mm:ss tt") + "", "Transaccion", textBox5.Text);
 
             }
             catch (Exception ftr)
