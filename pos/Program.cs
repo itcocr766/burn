@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using POS.Vista;
@@ -17,8 +18,9 @@ namespace POS
         {
             try
             {
-                System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("es-ES");
-                //System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+           
+
+                Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new MenuPrincipal());
